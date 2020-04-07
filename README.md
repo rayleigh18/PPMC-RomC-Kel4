@@ -10,3 +10,11 @@ Yasmin Sekar Arum
 Oktavianus Irvan Sitanggang
 Odelia
 Achmad Fawaz Ferdiansyah - 13218075
+
+DONE :
+HashCode
+parsingKata
+
+To DO :
+
+
