@@ -1,22 +1,11 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
 *Kelompok    : 
-*Hari/Tanggal: Wednesday/08-04-2020
-*Asisten/NIM : Hamdani Fadhli
+*Hari/Tanggal: Wednesday/09-04-2020
+*Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : hashCode.h
 *Deskripsi   : Membuat pasangan key value dengan menggunakan konsep Hashing
 */
-
-
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-
-int main(){
-    
-    return 0;
-}
-
 #ifndef HASHCODE_H
 #define HASHCODE_H
 

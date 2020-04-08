@@ -4,5 +4,6 @@
 
 int main(){
     table *pasanganTable;
+    
     return 0;
 }

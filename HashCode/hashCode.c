@@ -1,8 +1,8 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
-*Kelompok    : 
-*Hari/Tanggal: Wednesday/08-04-2020
-*Asisten/NIM : Hamdani Fadhli
+*Kelompok    : 7
+*Hari/Tanggal: Wednesday/09-04-2020
+*Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : hashCode.h
 *Deskripsi   : Implementasi hashCode.h
 */
