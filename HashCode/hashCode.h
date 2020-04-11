@@ -38,4 +38,6 @@ void insert(table *t, char* key, char* value);
 
 string_tab* lookupTable(table *t, char* key);
 
+void addKeyValToTable(table *t, char **ret, int size_ret, int nGram);
+
 #endif

@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
 *Kelompok    : 7
-*Hari/Tanggal: Wednesday/09-04-2020
+*Hari/Tanggal: Wednesday/11-04-2020
 *Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : hashCode.h
 *Deskripsi   : Implementasi hashCode.h
@@ -11,6 +11,9 @@
 #include <string.h>
 #include <math.h>
 #include "hashCode.h"
+
+#define MAX_HURUF 20
+#define MAX_WRAP_WORD 1000
 
 table *createTable(int size){
     table *t = (table*)malloc(sizeof(table));
@@ -31,7 +34,7 @@ int hashCode(table *t, char* key){
     for (int i = 0; i < strlen(key);i++){
         hash += (((int)key[i]) *(int) pow(p,i))%(t->size);
     }
-    return hash%(t->size);
+    return abs(hash%(t->size));
 }
 
 void addVal(string_tab *arrayOfString, char *val){
@@ -41,7 +44,7 @@ void addVal(string_tab *arrayOfString, char *val){
         }
     }
     arrayOfString->array = (char**)realloc(arrayOfString->array,((arrayOfString->Neff) + 1)*sizeof(char*));
-    (arrayOfString->array)[arrayOfString->Neff] = (char*)malloc(20*sizeof(char));
+    (arrayOfString->array)[arrayOfString->Neff] = (char*)malloc(MAX_HURUF*sizeof(char));
     
     strcpy((arrayOfString->array)[arrayOfString->Neff],val);
     arrayOfString->Neff += 1;
@@ -54,19 +57,20 @@ void insert(table *t, char* key, char* value){
     node *temp = list;
 
     while(temp){
-        if(strcmp(temp->key,key) == 0){
-            
+        if(strcmp(temp->key,key) == 0){            
             addVal(temp->val,value);
             return;
         }
+        temp = temp->next;
     }
     node *newNode = (node*)malloc(sizeof(node));
-    newNode->key = (char*)malloc(sizeof(char)*20);
+    newNode->key = (char*)malloc(sizeof(char)*MAX_WRAP_WORD);
     strcpy((newNode->key), key);
     newNode->val = (string_tab*)malloc(sizeof(string_tab));
     (newNode->val)->array = (char**)malloc(sizeof(char*));
     
-    newNode->val->array[0] = (char*)malloc(sizeof(char)*20);
+    
+    newNode->val->array[0] = (char*)malloc(sizeof(char)*MAX_HURUF);
     strcpy(newNode->val->array[0],value);
     newNode->val->Neff = 1;
     newNode->next = list;
@@ -87,8 +91,7 @@ string_tab* lookupTable(table *t, char* key){
 }
 
 char* wrapWordToString(char **ret, int begin, int end){
-    int len = 100;
-    char *res = (char*)malloc(len*sizeof(char));
+    char *res = (char*)malloc(MAX_WRAP_WORD*sizeof(char));
     res[0] = '\0';
 
     int i;
@@ -106,27 +109,62 @@ char* wrapWordToString(char **ret, int begin, int end){
     return res;
 }
 
-void addKeyValToTable(table *t, char **ret, int size_ret){
-    
-    // for (i = 0; i < size_ret; i++){
-
-    // }
-}
-
-int main(){
-    int n;
+void addKeyValToTable(table *t, char **ret, int size_ret, int nGram){
     int i;
-    scanf("%d",&n);
-    char **temp;
-    temp = (char**)malloc(n*sizeof(char*));
-    for (i = 0; i < n; i++){
-        temp[i] = (char*)malloc(20*sizeof(char));
+    char *temp;
+    temp = (char*)malloc(10*sizeof(char));
+    for (i = 0; i < size_ret - nGram+1; i++){
+        insert(t,wrapWordToString(ret,i,i+nGram-2),ret[i+nGram-1]);
     }
-    for(i = 0; i < n; i++){
-        scanf("%s", temp[i]);
-    }
-    for (i = 0; i < n-1; i++){
-        printf("%s\n",wrapWordToString(temp,i,i+1));
-    }
-    return  0;
 }
+// unit  test
+// int main(){
+//     int n;
+//     int i,j;
+//     table *t = createTable(10);
+//     scanf("%d",&n);
+//     char **temp;
+//     temp = (char**)malloc(n*sizeof(char*));
+//     for (i = 0; i < n; i++){
+//         temp[i] = (char*)malloc(20*sizeof(char));
+//     }
+//     for(i = 0; i < n; i++){
+//         scanf("%s", temp[i]);
+//     }
+//     addKeyValToTable(t, temp, n, 3);
+
+//     for (i = 0; i < 10 ; i++){
+//         printf("debug %d",i);
+//         if (t->list[i] == NULL){
+//             printf("kosong \n");
+//         }
+//         else{
+//             node* temp = t->list[i];
+//             while(temp){
+//                 printf("Key = %s Value = ", temp->key);
+//                 for (int k = 0; k < temp->val->Neff; k++){
+//                     printf("%s,",temp->val->array[k]);
+//                 }
+//                 temp = temp->next;
+//             }
+//             printf("\n");
+//         }
+//     }
+//     // printf("makan = %s", lookupTable(t,"makan")->array[1]);
+//     return  0;
+// }
+
+// 10 saya makan ayam makan sapi juga jangan pergi kamu
+//gcc hashCode.c -o a -std=c99
+// try
+// 10
+// aku
+// mau
+// makan
+// ayam
+// pakai
+// sapi
+// makan
+// telor
+// pakai
+// tangan
