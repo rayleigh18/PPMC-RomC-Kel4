@@ -46,6 +46,7 @@ void addVal(string_tab *arrayOfString, char *val){
     strcpy((arrayOfString->array)[arrayOfString->Neff],val);
     arrayOfString->Neff += 1;
 }
+
 // insert new elemen to table
 void insert(table *t, char* key, char* value){
     int num = hashCode(t, key);
@@ -83,4 +84,49 @@ string_tab* lookupTable(table *t, char* key){
         temp = temp->next;
     }
     return NULL;
+}
+
+char* wrapWordToString(char **ret, int begin, int end){
+    int len = 100;
+    char *res = (char*)malloc(len*sizeof(char));
+    res[0] = '\0';
+
+    int i;
+    if (begin <= end){
+        strcat(res,ret[begin]);
+    }
+    for (i = begin + 1; i <= end; i++){
+        if (strlen(res) + strlen(ret[i]) >= len-1){
+            len = strlen(res) + strlen(ret[i]);
+            res = (char*)realloc(res, (len+1)*sizeof(char));
+        }
+        strcat(res," ");
+        strcat(res,ret[i]);
+    }    
+    return res;
+}
+
+void addKeyValToTable(table *t, char **ret, int size_ret){
+    
+    // for (i = 0; i < size_ret; i++){
+
+    // }
+}
+
+int main(){
+    int n;
+    int i;
+    scanf("%d",&n);
+    char **temp;
+    temp = (char**)malloc(n*sizeof(char*));
+    for (i = 0; i < n; i++){
+        temp[i] = (char*)malloc(20*sizeof(char));
+    }
+    for(i = 0; i < n; i++){
+        scanf("%s", temp[i]);
+    }
+    for (i = 0; i < n-1; i++){
+        printf("%s\n",wrapWordToString(temp,i,i+1));
+    }
+    return  0;
 }
