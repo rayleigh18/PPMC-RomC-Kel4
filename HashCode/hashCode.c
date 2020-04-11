@@ -98,7 +98,7 @@ string_tab* lookupTable(table *t, char* key){
 char* wrapWordToString(char **ret, int begin, int end){
     char *res = (char*)malloc(MAX_WRAP_WORD*sizeof(char));
     res[0] = '\0';
-
+    int len = MAX_WRAP_WORD;
     int i;
     if (begin <= end){
         strcat(res,ret[begin]);
