@@ -35,9 +35,18 @@ table *createTable(int size);
 int hashCode(table *t, char* key);
 
 void insert(table *t, char* key, char* value);
-
+/*
+/ Menambahkan hasil parsing ke dalam table
+/ Buat ngeliat, format keluaran 
+/ OUTPUT : alamat dari string_tab
+*/
 string_tab* lookupTable(table *t, char* key);
 
+/*
+/ Menambahkan hasil parsing ke dalam table
+/ Pemanggilan fungsi ini setelah parsing, dengan masukan ret adalah array string
+/ 
+*/
 void addKeyValToTable(table *t, char **ret, int size_ret, int nGram);
 
 #endif
