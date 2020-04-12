@@ -24,14 +24,13 @@ FILE* readFile() {
     return temp;
 }
 
-void parser(FILE* stream, char ret[200000][50]) {
+void parser(FILE* stream, char ret[250000][50]) {
 	int read;
 	char *word = (char *)malloc(100 * sizeof(char));
 	char help[50];
-    int counter = 0;
-    int index = 0;
+	int index = 0;
+	int counter = 0;
     int wordcount;
-
 	while(1){
 		int j = 0;
 		read = fgetc(stream);
@@ -59,7 +58,7 @@ void parser(FILE* stream, char ret[200000][50]) {
             break;
         }
         counter++;
-        if(counter == 300000){
+        if(counter == 250000){
         	break;
         }
 	}
@@ -70,20 +69,20 @@ void parser(FILE* stream, char ret[200000][50]) {
 
     //simpan jumlah kata
     wordcount = counter + 1;
-    printf ("julmah kata: %d", wordcount);
+    //printf ("julmah kata: %d", wordcount);
 }
 
 int main(){
 	FILE* stream = readFile();
-	char arr[200000][50];
-    int i;
+//Memanfaatkan static storage untuk penyimpanan kata yang lebih banyak pada teks yang panjang
+//referensi
+//https://www.researchgate.net/post/What_is_the_maximum_size_of_an_array_in_C
+//https://www.geeksforgeeks.org/storage-classes-in-c/
+	static char arr[250000][50];
 	parser(stream, arr);
-
-/*  UNTUK PRINT TIAP KATA YANG DISIMPAN
-	for(i = 0; i < 100000 && arr[i][0] != 0; i++){
+/*  UNTUK PRINT TIAP KATA YANG DISIMPAN (debugging)
+	for(int i = 0; i < 250000 && arr[i][0] != 0; i++){
 		printf("%s\n", arr[i]);
-	}
-    printf("%d", i);*/
- 
+	}*/
 	return 0;
 }
