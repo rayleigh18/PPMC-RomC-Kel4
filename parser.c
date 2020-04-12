@@ -52,15 +52,27 @@ void parser(FILE* stream, char ret[250000][50]) {
         	break;
         }
 	}
+    //word counter
 
+    //langsung print
+    //printf ("jumlah kata: %d", counter+1);
+
+    //simpan jumlah kata
+    wordcount = counter + 1;
+    //printf ("julmah kata: %d", wordcount);
 }
 
 int main(){
 	FILE* stream = readFile();
+//menggunakan static storage untuk penyimpanan kata yang lebih banyak untuk teks yang panjang
+//referensi
+//https://www.geeksforgeeks.org/storage-classes-in-c/
+//https://www.researchgate.net/post/What_is_the_maximum_size_of_an_array_in_C
 	static char arr[250000][50];
 	parser(stream, arr);
+/*  UNTUK PRINT TIAP KATA YANG DISIMPAN (debugging)
 	for(int i = 0; i < 250000 && arr[i][0] != 0; i++){
 		printf("%s\n", arr[i]);
-	}
+	}*/
 	return 0;
 }
