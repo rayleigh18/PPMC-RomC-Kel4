@@ -1,3 +1,12 @@
+/* EL2208 Praktikum Pemecahan Masalah dengan C
+*Modul 8 - TUGAS BESAR
+*Kelompok    : 
+*Hari/Tanggal: Minggu/12-04-2020
+*Asisten/NIM : Hamdani Fadhli / 13217058
+*Nama File   : main.c
+*Deskripsi   : Sebagai Main Program dan Penggabung Semua Fungsi-Fungsi yang ada
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
