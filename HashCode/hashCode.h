@@ -9,6 +9,14 @@
 #ifndef HASHCODE_H
 #define HASHCODE_H
 
+#ifndef MAX_HURUF
+#define MAX_HURUF 50
+#endif
+
+#ifndef MAX_WRAP_WORD
+#define MAX_WRAP_WORD 1000
+#endif
+
 /*
     string_tab adalah tab untuk array of string
     untuk mendapatkan string ke [i] 

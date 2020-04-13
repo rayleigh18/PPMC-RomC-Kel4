@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
 *Kelompok    : 
-*Hari/Tanggal: Minggu/12-04-2020
+*Hari/Tanggal: Minggu/14-04-2020
 *Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : main.c
 *Deskripsi   : Sebagai Main Program dan Penggabung Semua Fungsi-Fungsi yang ada
@@ -11,16 +11,20 @@
 #include <stdlib.h>
 
 #include "HashCode/hashCode.h"
-#include "parser.h"
-#include "mencari.h"
+#include "Parser/parser.h"
+#include "Mencari/mencari.h"
 
 void menu();
+#ifndef MAX_HURUF
+#define MAX_HURUF 50
+#endif
 
 int main()
 {
     // List Variabel
-    table *pasanganTable;
-    static char arr[250000][50];
+    table *pasanganTable = createTable(10000);
+    static char ret[250000][MAX_HURUF];
+    int size_ret;
     int nGram;
     
     
@@ -32,7 +36,7 @@ int main()
     FILE* stream = readFile();
     while(stream != NULL)
     {
-	    parser(stream, arr);
+	    parser(stream, ret, &size_ret);
         
         printf("Masukkan nilai nGram : ");
         scanf("%d",&nGram);
@@ -42,7 +46,8 @@ int main()
             printf("Masukkan nilai nGram : ");
             scanf("%d",&nGram);
         }
-        
+        // adding to table
+        addKeyValToTable(pasanganTable,ret,size_ret,nGram);
         
         
     }

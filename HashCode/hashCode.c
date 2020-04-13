@@ -12,13 +12,6 @@
 #include <math.h>
 #include "hashCode.h"
 
-#ifndef MAX_HURUF
-#define MAX_HURUF 20
-#endif
-
-#ifndef MAX_WRAP_WORD
-#define MAX_WRAP_WORD 1000
-#endif
 
 table *createTable(int size){
     table *t = (table*)malloc(sizeof(table));
