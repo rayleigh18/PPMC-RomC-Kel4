@@ -12,21 +12,23 @@
 #include <math.h>
 #include "hashCode.h"
 
-
+// ide : https://medium.com/@bennettbuchanan/an-introduction-to-hash-tables-in-c-b83cbf2b4cf6
 table *createTable(int size){
+    // membuat table
     table *t = (table*)malloc(sizeof(table));
     t->size = size;
     t->list = (node**)malloc(sizeof(node*)*size);
 
     int i;
     for(i = 0; i < size;i++){
-        (t->list)[i] = NULL;
+        (t->list)[i] = NULL;// inisiasi array
     }
     return t;
 }
 
 int hashCode(table *t, char* key){
     //sumber : https://cp-algorithms.com/string/string-hashing.html
+    //hashing sebuah string
     const int p = 91;
     int hash  = 0;
     for (int i = 0; i < strlen(key);i++){
@@ -61,13 +63,17 @@ void insert(table *t, char* key, char* value){
         }
         temp = temp->next;
     }
+
+    // nambahin node
     node *newNode = (node*)malloc(sizeof(node));
-    newNode->key = (char*)malloc(sizeof(char)*MAX_WRAP_WORD);
+    newNode->key = (char*)malloc(sizeof(char)*(strlen(key)+1));
+    // adding key
     strcpy((newNode->key), key);
+    // adding val
     newNode->val = (string_tab*)malloc(sizeof(string_tab));
     (newNode->val)->array = (char**)malloc(sizeof(char*));
     
-    
+    // adding value
     newNode->val->array[0] = (char*)malloc(sizeof(char)*MAX_HURUF);
     strcpy(newNode->val->array[0],value);
     newNode->val->Neff = 1;
@@ -88,7 +94,7 @@ string_tab* lookupTable(table *t, char* key){
     return NULL;
 }
 
-char* wrapWordToString(char **ret, int begin, int end){
+char* wrapWordToString(char ret[][50], int begin, int end){
     char *res = (char*)malloc(MAX_WRAP_WORD*sizeof(char));
     res[0] = '\0';
     int len = MAX_WRAP_WORD;
@@ -107,7 +113,7 @@ char* wrapWordToString(char **ret, int begin, int end){
     return res;
 }
 
-void addKeyValToTable(table *t, char **ret, int size_ret, int nGram){
+void addKeyValToTable(table *t, char ret[][50], int size_ret, int nGram){
     int i;
     char *temp;
     temp = (char*)malloc(10*sizeof(char));
