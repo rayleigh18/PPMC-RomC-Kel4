@@ -14,7 +14,7 @@
 #endif
 
 #ifndef MAX_WRAP_WORD
-#define MAX_WRAP_WORD 1000
+#define MAX_WRAP_WORD 10000
 #endif
 
 /*
@@ -55,6 +55,13 @@ string_tab* lookupTable(table *t, char* key);
 / Pemanggilan fungsi ini setelah parsing, dengan masukan ret adalah array string
 / 
 */
-void addKeyValToTable(table *t, char **ret, int size_ret, int nGram);
+void addKeyValToTable(table *t, char ret[][50], int size_ret, int nGram);
+
+/*
+/ Menggabung kata-kata dengan array char
+/
+*/
+char* wrapWordToString(char ret[][50], int begin, int end);
+
 
 #endif
