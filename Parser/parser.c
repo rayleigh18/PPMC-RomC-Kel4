@@ -26,7 +26,15 @@ void parser(FILE* stream, char ret[250000][50], int *total_word) {
 		int j = 0;
 		read = fgetc(stream);
         while(read != ' ' && read != '\n' && read != EOF){
-            word[j] = read;
+            if (isascii(read)){
+            word[j] = read;                
+            }
+            else{
+//membaca petik dua non ascii pada teks
+            word[j] = '\"';
+            read = fgetc(stream);
+            read = fgetc(stream);
+            }
             j++;
             read = fgetc(stream);
         }
