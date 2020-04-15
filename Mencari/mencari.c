@@ -1,10 +1,10 @@
-/* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020  
-* MODUL 8 – TUGAS BESAR  
-* Kelompok   : 4  
+/* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
+* MODUL 8 – TUGAS BESAR
+* Kelompok   : 4
 * Hari dan Tanggal : Rabu, 15 April 2020
-* Asisten (NIM)  : Hamdani Fadhli (13217058) 
+* Asisten (NIM)  : Hamdani Fadhli (13217058)
 * Nama File   : mencari.c
-* Deskripsi   : Implementasi Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */ 
+* Deskripsi   : Implementasi Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */
 
 #ifndef MAX_HURUF
 #define MAX_HURUF 50
@@ -28,12 +28,19 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
 {
 	char queue[nGram][MAX_HURUF];
     char first[10000];
-    for (int i = 0; i < SIZE_TABLE; i++){
+    int a= rand % totalKata +1;
+    for (int i = a; i < SIZE_TABLE; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
         }
     }
-        
+
+    for (i=0; i<a; i++){
+        if (pasanganTable->list[i]!= NULL){
+            strcpy(first , pasanganTable->list[i]->key);
+        }
+    }
+
     char *temp = strtok(first," ");
     strcpy(queue[0],temp);
     fprintf(out,"%s ",temp);
@@ -76,7 +83,7 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
                     countKata++;
                 }
             }
-        } 
+        }
 }
 
 /*
@@ -125,12 +132,12 @@ generate(int nGram, int banyakKata, table* t, char** out) {
     }
 }
 
-// fungsi untuk menggabungkan hasil 
+// fungsi untuk menggabungkan hasil
 tempelinArray(char** in, int banyakKata, char* out) {
     int i, j;
     // loop penyatuan
     for (i = 0; i < banyakKata; i++) {
-        if (in[i][0] == '\0') 
+        if (in[i][0] == '\0')
             break;
 
         // kalo bukan yg pertama, tulis spasi dulu
@@ -143,7 +150,7 @@ tempelinArray(char** in, int banyakKata, char* out) {
         for (j = 0; j < MAX_PANJANG_KATA; j++) {
             *out = in[i][j];
             out++;
-            if (in[i][j] == '\0') 
+            if (in[i][j] == '\0')
                 break;
         }
     }
