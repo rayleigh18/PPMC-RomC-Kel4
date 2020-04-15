@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <mencari.h>
+#include "mencari.h"
 #include "../HashCode/hashCode.h"
 
 void popQue(char ret[][50], int size){
@@ -29,14 +29,14 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
 	// nGram-1 Kata Pertama
 	char queue[nGram][MAX_HURUF];
     char first[10000];
-    int a= rand % totalKata +1;
+    int  a = rand () % totalKata +1;
     for (int i = a; i < SIZE_TABLE; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
         }
     }
 
-    for (i=0; i<a; i++){
+    for (int i=0; i<a; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
         }
