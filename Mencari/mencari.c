@@ -1,20 +1,21 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
 * MODUL 8 – TUGAS BESAR
 * Kelompok          : 4
-* Hari dan Tanggal  : Selasa, 14 April 2020
+* Hari dan Tanggal  : Rabu, 15 April 2020
 * Asisten (NIM)     : Hamdani Fadhli (13217058)
 * Nama File         : mencari.c
-* Deskripsi         : Implementasi Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */
+* Deskripsi         : IMplementais Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */
 
 #ifndef MAX_PANJANG_KATA
 #define MAX_PANJANG_KATA 100
 #endif
 #include <stdio.h>
 #include <string.h>
-
+#include "mencari.h"
+#include "HashCode/hashCode.h"
 
 // fungsi nulis kata acak ke string di [hasil]
-tulisKataAcak(char* hasil, int n) {
+tulisKataAcak(char* hasil, int n, char array_kata_referensi[r][i]) {
  int i, r;
  r = rand() % n +1;
  for(i = 0; i < MAX_PANJANG_KATA; i++) {
@@ -30,16 +31,19 @@ copy(char* in, char* out){
 }
 
 // diasumsiin bentuk fungsi lookupnya gini, fungsinya ngeset valueOut jadi value dari key
-//lookup(table* t, char** key, char** valueOut);
+lookup(table* t, char** key, char** valueOut){
+string_tab* res = lookupTable(t, *key);
+valueOut = res->array;
+}
 
 // fungsi generator
-generate(int nGram, int banyakKata, table* t, char** out) {
-    kataTerakhir[banyakKata][MAX_PANJANG_KATA];
+generate(int nGram, int banyakKata, table* t, char** out, char array_kata_referensi[r][i]) {
+    char kataSelanjytnya[MAX_PANJANG_KATA], kataTerakhir[banyakKata][MAX_PANJANG_KATA];
     int i, j, counter = 0;
 
     // isi kata awal dengan kata acak
     for (i = 0; i < nGram; i++) {
-        tulisKataAcak(kataTerakhir[i], banyakKata);
+        tulisKataAcak(kataTerakhir[i], banyakKata, array_kata_referensi[r][i]);
         copy(kataTerakhir[i], out[i]);
         //menulis sebanyak i kata
         counter = i;
@@ -83,5 +87,3 @@ tempelinArray(char** in, int banyakKata, char* out) {
  // tutup string
  *out = '\0';
 }
-
-// pengujian HAHA w sebenrnya bingung gimana cara ngujinya omo
