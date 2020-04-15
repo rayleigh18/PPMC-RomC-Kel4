@@ -5,6 +5,7 @@
 * Asisten (NIM)  : Hamdani Fadhli (13217058) 
 * Nama File   : mencari.c
 * Deskripsi   : IMplementais Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */ 
+
 #ifndef MAX_PANJANG_KATA
 #define MAX_PANJANG_KATA 100
 #endif
@@ -82,12 +83,3 @@ tempelinArray(char** in, int banyakKata, char* out) {
  // tutup string
  *out = '\0';
 }
-
-// // pengujian HAHA w sebenrnya bingung gimana cara ngujinya omo
-// int main() {
-//  char hasil[2000][MAX_PANJANG_KATA], hasilString[10000];
-
-//  // awalan isi kalimat, trus tabel
-//  generate(8, 2000, table, hasil);
-//  tempelinArray(hasil, 2000, hasilString);
-// }
