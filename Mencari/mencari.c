@@ -26,6 +26,7 @@ void popQue(char ret[][50], int size){
 
 void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
 {
+	// nGram-1 Kata Pertama
 	char queue[nGram][MAX_HURUF];
     char first[10000];
     for (int i = 0; i < SIZE_TABLE; i++){
@@ -43,6 +44,8 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
         fprintf(out,"%s ",temp);
         strcpy(queue[i],temp);
     }
+    
+    // Print Kata di kalimat sebanyak Total Kata
     int countKata = nGram -1;
         while (countKata < totalKata){
             string_tab *val = lookupTable(pasanganTable,wrapWordToString(queue,0,nGram-2));
