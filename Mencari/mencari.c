@@ -1,10 +1,10 @@
-/* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020  
-* MODUL 8 – TUGAS BESAR  
-* Kelompok   : 4  
-* Hari dan Tanggal : Selasa, 14 April 2020
-* Asisten (NIM)  : Hamdani Fadhli (13217058) 
-* Nama File   : mencari.c
-* Deskripsi   : IMplementais Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */ 
+/* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
+* MODUL 8 – TUGAS BESAR
+* Kelompok          : 4
+* Hari dan Tanggal  : Selasa, 14 April 2020
+* Asisten (NIM)     : Hamdani Fadhli (13217058)
+* Nama File         : mencari.c
+* Deskripsi         : Implementasi Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */
 
 #ifndef MAX_PANJANG_KATA
 #define MAX_PANJANG_KATA 100
@@ -30,7 +30,7 @@ copy(char* in, char* out){
 }
 
 // diasumsiin bentuk fungsi lookupnya gini, fungsinya ngeset valueOut jadi value dari key
-lookup(table* t, char** key, char** valueOut);
+//lookup(table* t, char** key, char** valueOut);
 
 // fungsi generator
 generate(int nGram, int banyakKata, table* t, char** out) {
@@ -58,12 +58,12 @@ generate(int nGram, int banyakKata, table* t, char** out) {
     }
 }
 
-// fungsi untuk menggabungkan hasil 
+// fungsi untuk menggabungkan hasil
 tempelinArray(char** in, int banyakKata, char* out) {
     int i, j;
     // loop penyatuan
     for (i = 0; i < banyakKata; i++) {
-        if (in[i][0] == '\0') 
+        if (in[i][0] == '\0')
             break;
 
         // kalo bukan yg pertama, tulis spasi dulu
@@ -76,10 +76,12 @@ tempelinArray(char** in, int banyakKata, char* out) {
         for (j = 0; j < MAX_PANJANG_KATA; j++) {
             *out = in[i][j];
             out++;
-            if (in[i][j] == '\0') 
+            if (in[i][j] == '\0')
                 break;
         }
     }
  // tutup string
  *out = '\0';
 }
+
+// pengujian HAHA w sebenrnya bingung gimana cara ngujinya omo
