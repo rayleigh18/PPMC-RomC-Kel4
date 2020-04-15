@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include "parser.h"
 
 FILE* readFile() {
@@ -26,6 +27,9 @@ void parser(FILE* stream, char ret[250000][50], int *total_word) {
 		int j = 0;
 		read = fgetc(stream);
         while(read != ' ' && read != '\n' && read != EOF){
+//cek apakah ascii
+//referensi:
+//https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_71/rtref/isascii.htm
             if (isascii(read)){
             word[j] = read;                
             }
