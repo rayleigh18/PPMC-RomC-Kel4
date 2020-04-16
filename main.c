@@ -40,11 +40,12 @@ int main()
     
     //Implementasi Algoritma
     //Menu
-    printf("Selamat datang dalam program nGram grup C-4\n\n\n");
-    printf("Aturan penggunaan :\n");
-    printf("1. Untuk keluar dari program, masukkan 'exit' pada File Name \n");
-    printf("2. Untuk kembali menginput file, masukkan 0 pada total kata \n");
-    printf("3. Program berjalan untuk 0< nGram < total kata \n\n");
+    printf("WELCOME!\n");
+    printf("This is Batch C/ Group 4's nGram Program\n\n\n");
+    printf("Rules :\n");
+    printf("1. To left this program, type 'exit' on File Name \n");
+    printf("2. To input another file, type 0 on total word(s) \n");
+    printf("3. This Program works for 0 < nGram < Total Word(s) \n\n");
     
     //Penggunaan fungsi input file dan fungsi parser dari file "parser.h"
     FILE* stream = readFile();
@@ -53,17 +54,17 @@ int main()
 	    parser(stream, ret, &size_ret);
         
         //Input nGram
-        printf("Masukkan nilai nGram : ");
+        printf("Input nGram value : ");
         scanf("%d",&nGram);
         while(nGram < 2) //Input checker untuk nGram < 2, karena dibawah 2 akan = kata random semua
         {
-            printf("nGram harus diatas 2!");
-            printf("Masukkan nilai nGram : ");
+            printf("nGram must be greater than 2!");
+            printf("Input nGram value                   : ");
             scanf("%d",&nGram);
         }
         
         //Input totalKata
-        printf("Masukkan total kata             : ");
+        printf("Input Total Word(s)                 :");
         scanf("%d",&totalKata);
         
         //Untuk keluar dari Total Kata, totalkata = 0
@@ -71,14 +72,14 @@ int main()
 			//Checker apabila Total Kata < nGram
 			while(totalKata < nGram){
 				if (totalKata < 0){ //Checker apabila Total Kata < 0
-					printf("Total Kata tidak mungkin negatif!!\n");
-					printf("Masukkan kembali total kata     : ");
+					printf("Total word(s) can't be negative!!\n");
+					printf("Input another Total Word(s)         : ");
 					scanf("%d",&totalKata);
 					
 				}
 				else{
-					printf("Total Kata tidak mungkin lebih kecil dari nGram!\n");
-					printf("Masukkan kembali total kata     :");
+					printf("Total Word(s) can't be smaller than nGram!\n");
+					printf("Input another Total Word(s)         : ");
 					scanf("%d",&totalKata);
 				}
 			}
@@ -96,7 +97,7 @@ int main()
             fclose(out);
 			
 			//Input kembali total kata baru
-            printf("Masukkan total kata baru        : ");
+            printf("Masukkan Total New Word(s)          : ");
             scanf("%d",&totalKata);
         }
         
