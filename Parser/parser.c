@@ -48,7 +48,7 @@ void parser(FILE* stream, char ret[250000][50], int *total_word) {
 	while(1){
 		int j = 0;
 		read = fgetc(stream);
-        while(read != ' ' && read != '\n' && read != EOF){
+        while(read != ' ' && read != '\t' && read != '\n' && read != EOF){
 //cek apakah ascii
 //referensi:
 //https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_71/rtref/isascii.htm
