@@ -42,6 +42,7 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
             found = 1;
+            break;
         }
     }
 
