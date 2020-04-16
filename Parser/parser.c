@@ -18,17 +18,17 @@ FILE* readFile() {
     char fileName[100];
 	
 	//Input File Name
-    printf("Masukkan File Name (Ketik 'exit' jika ingin keluar dari program): ");
+    printf("Input File Name: ");
     gets(fileName);
 
     temp = fopen(fileName, "r");
     // Check File dengan nama file tersebut, apakah ada atau tidak
     while (temp == NULL){
         if (strcmp(fileName, "exit") == 0){ // Keluar program apabila inputan file = "exit"
-            printf("Anda keluar!");
+            printf("You've already left this program!");
             exit(1);
         }
-        printf("Nama file tidak Valid ! \nMasukkan File Name(Ketik 'exit' jika ingin keluar dari program): ");
+        printf("File not Valid ! \nInput File Name: ");
         gets(fileName);
 
         temp = fopen(fileName, "r");
