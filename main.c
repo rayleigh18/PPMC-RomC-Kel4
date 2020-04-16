@@ -40,7 +40,11 @@ int main()
     
     //Implementasi Algoritma
     //Menu
-    printf("Selamat datang dalam program nGram\n");
+    printf("Selamat datang dalam program nGram grup C-4\n\n\n");
+    printf("Aturan penggunaan :\n");
+    printf("1. Untuk keluar dari program, masukkan 'exit' pada File Name \n");
+    printf("2. Untuk kembali menginput file, masukkan 0 pada total kata \n");
+    printf("3. Program berjalan untuk 0< nGram < total kata \n\n");
     
     //Penggunaan fungsi input file dan fungsi parser dari file "parser.h"
     FILE* stream = readFile();
