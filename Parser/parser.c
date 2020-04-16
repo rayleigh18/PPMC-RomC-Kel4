@@ -18,7 +18,7 @@ FILE* readFile() {
     char fileName[100];
 	
 	//Input File Name
-    printf("Input File Name                 : ");
+    printf("Input File Name                     : ");
     gets(fileName);
 
     temp = fopen(fileName, "r");
@@ -28,7 +28,7 @@ FILE* readFile() {
             printf("You've already left this program!");
             exit(1);
         }
-        printf("This file doesn't exist, try again! \nInput File Name                 : ");
+        printf("This file doesn't exist, try again! \nInput File Name                     : ");
         gets(fileName);
 
         temp = fopen(fileName, "r");
