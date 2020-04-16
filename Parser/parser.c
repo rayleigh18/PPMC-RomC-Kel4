@@ -28,7 +28,7 @@ FILE* readFile() {
             printf("You've already left this program!");
             exit(1);
         }
-        printf("File not Valid ! \nInput File Name: ");
+        printf("This file doesn't exist, try again! \nInput File Name: ");
         gets(fileName);
 
         temp = fopen(fileName, "r");
