@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
 *Kelompok    : 7
-*Hari/Tanggal: Wednesday/11-04-2020
+*Hari/Tanggal: Wednesday/16-04-2020
 *Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : hashCode.h
 *Deskripsi   : Implementasi hashCode.h
@@ -39,15 +39,16 @@ int hashCode(table *t, char* key){
 
 void addVal(string_tab *arrayOfString, char *val){
     for (int i = 0; i < arrayOfString->Neff; i++){
-        if (strcmp(arrayOfString->array[i],val) == 0){
+        if (strcmp(arrayOfString->array[i],val) == 0){// kalau sudah ada value
             return;
         }
     }
-    arrayOfString->array = (char**)realloc(arrayOfString->array,((arrayOfString->Neff) + 1)*sizeof(char*));
+    //kalau ga ada valuenya, tambahin yang baru
+    arrayOfString->array = (char**)realloc(arrayOfString->array,((arrayOfString->Neff) + 1)*sizeof(char*)); // penambahan array
     (arrayOfString->array)[arrayOfString->Neff] = (char*)malloc(MAX_HURUF*sizeof(char));
     
-    strcpy((arrayOfString->array)[arrayOfString->Neff],val);
-    arrayOfString->Neff += 1;
+    strcpy((arrayOfString->array)[arrayOfString->Neff],val); // input value
+    arrayOfString->Neff += 1; // Penamaban isi N efektif
 }
 
 // insert new elemen to table
@@ -55,15 +56,16 @@ void insert(table *t, char* key, char* value){
     int num = hashCode(t, key);
     node *list = (t->list)[num];
     node *temp = list;
-
+    // searching in linked list
     while(temp){
-        if(strcmp(temp->key,key) == 0){            
+        if(strcmp(temp->key,key) == 0){
+            // adding the new value
             addVal(temp->val,value);
             return;
         }
         temp = temp->next;
     }
-
+    // if ga ada key, keynya ditambahin
     // nambahin node
     node *newNode = (node*)malloc(sizeof(node));
     newNode->key = (char*)malloc(sizeof(char)*(strlen(key)+1));
@@ -78,15 +80,17 @@ void insert(table *t, char* key, char* value){
     strcpy(newNode->val->array[0],value);
     newNode->val->Neff = 1;
     newNode->next = list;
+    // nambahin node
     (t->list)[num] = newNode;
 }
 
 string_tab* lookupTable(table *t, char* key){
     int num = hashCode(t,key);
     node *list = (t->list)[num];
-    node *temp = list;
+    node *temp = list; // making lookup
+
     while(temp){
-        if (strcmp(temp->key, key) == 0){
+        if (strcmp(temp->key, key) == 0){// mencari key
             return (temp->val);
         }
         temp = temp->next;
@@ -94,20 +98,20 @@ string_tab* lookupTable(table *t, char* key){
     return NULL;
 }
 
-char* wrapWordToString(char ret[][50], int begin, int end){
+char* wrapWordToString(char ret[][50], int begin, int end){// wrapper array of string to become string
     char *res = (char*)malloc(MAX_WRAP_WORD*sizeof(char));
-    res[0] = '\0';
+    res[0] = '\0';//initiation string
     int len = MAX_WRAP_WORD;
     int i;
     if (begin <= end){
         strcat(res,ret[begin]);
     }
     for (i = begin + 1; i <= end; i++){
-        if (strlen(res) + strlen(ret[i]) >= len-1){
+        if (strlen(res) + strlen(ret[i]) >= len-1){ // jika melebihi maksimal, jadi array dinamsi
             len = strlen(res) + strlen(ret[i]);
             res = (char*)realloc(res, (len+1)*sizeof(char));
         }
-        strcat(res," ");
+        strcat(res," ");// adding to array
         strcat(res,ret[i]);
     }    
     return res;
@@ -115,10 +119,9 @@ char* wrapWordToString(char ret[][50], int begin, int end){
 
 void addKeyValToTable(table *t, char ret[][50], int size_ret, int nGram){
     int i;
-    char *temp;
-    temp = (char*)malloc(10*sizeof(char));
     for (i = 0; i < size_ret - nGram+1; i++){
-        insert(t,wrapWordToString(ret,i,i+nGram-2),ret[i+nGram-1]);
+        // ret[i+nGram-1] adalah value, dan wrap word adalah key
+        insert(t,wrapWordToString(ret,i,i+nGram-2),ret[i+nGram-1]);// memasukkan nGram
     }
 }
 // unit  test
