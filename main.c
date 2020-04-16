@@ -18,8 +18,9 @@
 #ifndef MAX_HURUF
 #define MAX_HURUF 50
 #endif
-
+#ifndef SIZE_TABLE
 #define SIZE_TABLE 10000
+#endif
 
 int main()
 {
