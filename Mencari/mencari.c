@@ -58,7 +58,7 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
 
     for (int i = 1; i < nGram-1; i++){
         temp = strtok(NULL," ");
-        fprintf(out,"%s ",temp);
+        // fprintf(out,"%s ",temp);
         strcpy(queue[i],temp);
     }
     
