@@ -37,16 +37,18 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
     // (Untuk Debugging)
     //fprintf(out,"... %d ... ",a); 
     // fprintf(out,"|| ... %d ...",(pasanganTable->size+1));
-    
+    int found = 0;
     for (int i = randomNumb; i < SIZE_TABLE; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
+            found = 1;
         }
     }
 
-    for (int i=0; i < randomNumb; i++){
+    for (int i=0; (i < randomNumb) && !found; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
+            found = 1;
         }
     }
 
