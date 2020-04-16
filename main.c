@@ -45,8 +45,7 @@ int main()
     
     //Penggunaan fungsi input file dan fungsi parser dari file "parser.h"
     FILE* stream = readFile();
-    while(stream != NULL)
-    {
+    while(stream != NULL){
         int totalKata;
 	    parser(stream, ret, &size_ret);
         
@@ -54,6 +53,7 @@ int main()
         scanf("%d",&nGram);
         while(nGram < 2) //Input checker untuk nGram < 2, karena dibawah 2 akan = kata random semua
         {
+            // exiting program, this will do
             if (nGram == -1){
                 exit(1);
             }
@@ -69,58 +69,7 @@ int main()
         
         // Input nGram kata pertama pada file text
 		process(pasanganTable, nGram, out, totalKata);
-        /*char queue[nGram][MAX_HURUF];
-        char first[10000];
-        for (int i = 0; i < SIZE_TABLE; i++){
-            if (pasanganTable->list[i]!= NULL){
-                strcpy(first , pasanganTable->list[i]->key);
-            }
-        }
-        
-        char *temp = strtok(first," ");
-        strcpy(queue[0],temp);
-        fprintf(out,"%s ",temp);
-
-        for (int i = 1; i < nGram-1; i++){
-            temp = strtok(NULL," ");
-            fprintf(out,"%s ",temp);
-            strcpy(queue[i],temp);
-        }*/
-		/*
-        int countKata = nGram -1;
-        while (countKata < totalKata){
-            string_tab *val = lookupTable(pasanganTable,wrapWordToString(queue,0,nGram-2));
-            if (val != NULL){
-                popQue(queue,nGram - 1);
-                //printf("%s",wrapWordToString(queue,0,nGram-3));
-                int numRand = (val->Neff)*rand()/RAND_MAX;
-                if (numRand == val->Neff){
-                    numRand = (val->Neff) - 1;
-                }
-                strcpy(queue[nGram-2],val->array[numRand]);
-                fprintf(out,"%s ",val->array[numRand]);
-                countKata++;
-            }
-            else{
-                char first[10000];
-                for (int i = 0; i < SIZE_TABLE; i++){
-                    if (pasanganTable->list[i]!= NULL){
-                        strcpy(first , pasanganTable->list[i]->key);
-                    }
-                }
-                char *temp = strtok(first," ");
-                strcpy(queue[0],temp);
-                fprintf(out,"%s ",temp);
-                countKata++;
-
-                for (int i = 1; i < nGram-1 && countKata < totalKata; i++){
-                    temp = strtok(NULL," ");
-                    fprintf(out,"%s ",temp);
-                    strcpy(queue[i],temp);
-                    countKata++;
-                }
-            }
-        }  */      
+    
     }
     
     return 0;

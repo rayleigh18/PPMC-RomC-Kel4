@@ -11,6 +11,8 @@ Oktavianus Irvan Sitanggang
 Odelia
 Achmad Fawaz Ferdiansyah - 13218075
 
+run : gcc main.c HashCode/hashCode.c Mencari/mencari.c Parser/parser.c -o app -std=c99
+
 DONE :
 HashCode
 parsingKata

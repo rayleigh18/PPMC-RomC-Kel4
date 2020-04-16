@@ -21,6 +21,17 @@ FILE* readFile() {
     gets(fileName);
 
     temp = fopen(fileName, "r");
+    while (temp == NULL){
+        printf("Nama file tidak Valid ! \nFile Name: ");
+        gets(fileName);
+
+        if (strcmp(fileName, "exit")){
+            exit(1);
+        }
+
+        temp = fopen(fileName, "r");
+    }
+
 
     return temp;
 }
