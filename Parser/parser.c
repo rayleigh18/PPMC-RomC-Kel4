@@ -17,17 +17,17 @@ FILE* readFile() {
     FILE* temp;
     char fileName[100];
 
-    printf("File Name: ");
+    printf("File Name(exit jika ingin keluar): ");
     gets(fileName);
 
     temp = fopen(fileName, "r");
     while (temp == NULL){
-        printf("Nama file tidak Valid ! \nFile Name: ");
-        gets(fileName);
-
-        if (strcmp(fileName, "exit")){
+        if (strcmp(fileName, "exit") == 0){
+            printf("Anda keluar!");
             exit(1);
         }
+        printf("Nama file tidak Valid ! \nFile Name(exit jika ingin keluar): ");
+        gets(fileName);
 
         temp = fopen(fileName, "r");
     }

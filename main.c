@@ -22,6 +22,8 @@
 #define SIZE_TABLE 10000
 #endif
 
+void Menu();
+
 int main()
 {
     // List Variabel
@@ -34,9 +36,6 @@ int main()
     // }
     int size_ret;
     int nGram;
-
-    FILE *out;
-    out = fopen("out.txt","w");
     
     
     //Implementasi Algoritma
@@ -54,22 +53,31 @@ int main()
         while(nGram < 2) //Input checker untuk nGram < 2, karena dibawah 2 akan = kata random semua
         {
             // exiting program, this will do
-            if (nGram == -1){
-                exit(1);
-            }
             printf("nGram harus diatas 2!");
             printf("Masukkan nilai nGram : ");
             scanf("%d",&nGram);
         }
+        
         printf("Masukkan total kata : ");
         scanf("%d",&totalKata);
         
-        // adding to table
-        addKeyValToTable(pasanganTable,ret,size_ret,nGram);
-        
-        // Input nGram kata pertama pada file text
-		process(pasanganTable, nGram, out, totalKata);
-    
+        while (totalKata != 0){
+            // adding to table
+            FILE *out;
+            out = fopen("out.txt","w");
+            addKeyValToTable(pasanganTable,ret,size_ret,nGram);
+            
+            // Input nGram kata pertama pada file text
+            process(pasanganTable, nGram, out, totalKata);
+
+            fclose(out);
+
+            printf("Masukkan total kata : ");
+            scanf("%d",&totalKata);
+        }
+        scanf("%c");
+        fclose(stream);
+        stream = readFile();
     }
     
     return 0;
