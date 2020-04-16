@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
 *Kelompok    : 
-*Hari/Tanggal: Rabu/15-04-2020
+*Hari/Tanggal: Kamis / 16 April 2020
 *Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : main.c
 *Deskripsi   : Sebagai Main Program dan Penggabung Semua Fungsi-Fungsi yang ada
@@ -41,7 +41,7 @@ int main()
     //Implementasi Algoritma
     //Menu
     printf("WELCOME!\n");
-    printf("This is Batch C/ Group 4's nGram Program\n\n\n");
+    printf("This is Batch C/ Group 4's nGram Program\n\n");
     printf("Rules :\n");
     printf("1. To left this program, type 'exit' on File Name \n");
     printf("2. To input another file, type 0 on total word(s) \n");
@@ -54,7 +54,7 @@ int main()
 	    parser(stream, ret, &size_ret);
         
         //Input nGram
-        printf("Input nGram value : ");
+        printf("Input nGram value                   : ");
         scanf("%d",&nGram);
         while(nGram < 2) //Input checker untuk nGram < 2, karena dibawah 2 akan = kata random semua
         {
