@@ -48,33 +48,54 @@ int main()
         int totalKata;
 	    parser(stream, ret, &size_ret);
         
+        //Input nGram
         printf("Masukkan nilai nGram : ");
         scanf("%d",&nGram);
         while(nGram < 2) //Input checker untuk nGram < 2, karena dibawah 2 akan = kata random semua
         {
-            // exiting program, this will do
             printf("nGram harus diatas 2!");
             printf("Masukkan nilai nGram : ");
             scanf("%d",&nGram);
         }
         
-        printf("Masukkan total kata : ");
+        //Input totalKata
+        printf("Masukkan total kata (Masukkan 0 untuk kembali ke input file) : ");
         scanf("%d",&totalKata);
         
+        //Untuk keluar dari Total Kata, totalkata = 0
         while (totalKata != 0){
+			//Checker apabila Total Kata < nGram
+			while(totalKata < nGram){
+				if (totalKata < 0){ //Checker apabila Total Kata < 0
+					printf("Total Kata tidak mungkin negatif!!\n");
+					printf("Masukkan kembali total kata (Masukkan 0 untuk kembali ke input file) : ");
+					scanf("%d",&totalKata);
+					
+				}
+				else{
+					printf("Total Kata tidak mungkin lebih kecil dari nGram!\n");
+					printf("Masukkan kembali total kata : ");
+					scanf("%d",&totalKata);
+				}
+			}
+			
             // adding to table
-            FILE *out;
-            out = fopen("out.txt","w");
             addKeyValToTable(pasanganTable,ret,size_ret,nGram);
             
-            // Input nGram kata pertama pada file text
+            //File output hasil program
+            FILE *out;
+            out = fopen("out.txt","w");
+            
+            // Fungsi Process dari file mencari.h untuk menuliskan hasil output pada file out.txt
             process(pasanganTable, nGram, out, totalKata);
 
             fclose(out);
-
-            printf("Masukkan total kata : ");
+			
+			//Input kembali total kata baru
+            printf("Masukkan total kata baru (Masukkan 0 untuk kembali ke input file): ");
             scanf("%d",&totalKata);
         }
+        
         scanf("%c");
         fclose(stream);
         stream = readFile();
