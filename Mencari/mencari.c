@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
 * MODUL 8 – TUGAS BESAR
 * Kelompok   : 4
-* Hari dan Tanggal : Rabu, 15 April 2020
+* Hari dan Tanggal : Kamis, 16 April 2020
 * Asisten (NIM)  : Hamdani Fadhli (13217058)
 * Nama File   : mencari.c
 * Deskripsi   : Implementasi Alokasi araay untuk memncari kata sesuai kata inputan random di awal, dan mencari valuenya  */
@@ -15,7 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "mencari.h"
+#include <time.h>
 #include "../HashCode/hashCode.h"
 
 void popQue(char ret[][50], int size){
@@ -29,14 +29,22 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
 	// nGram-1 Kata Pertama
 	char queue[nGram][MAX_HURUF];
     char first[10000];
-    int  a = rand () % totalKata +1;
-    for (int i = a; i < SIZE_TABLE; i++){
+    
+    srand((unsigned int)time(0)); //Seeding for Random Number
+    
+    int  randomNumb = rand () % (pasanganTable->size+1);
+    
+    // (Untuk Debugging)
+    //fprintf(out,"... %d ... ",a); 
+    // fprintf(out,"|| ... %d ...",(pasanganTable->size+1));
+    
+    for (int i = randomNumb; i < SIZE_TABLE; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
         }
     }
 
-    for (int i=0; i<a; i++){
+    for (int i=0; i < randomNumb; i++){
         if (pasanganTable->list[i]!= NULL){
             strcpy(first , pasanganTable->list[i]->key);
         }
