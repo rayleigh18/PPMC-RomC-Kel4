@@ -43,9 +43,9 @@ int main()
     printf("WELCOME!\n");
     printf("This is Batch C/ Group 4's nGram Program\n\n");
     printf("Rules :\n");
-    printf("1. To left this program, type 'exit' on File Name \n");
-    printf("2. To input another file, type 0 on total word(s) \n");
-    printf("3. This Program works for 0 < nGram < Total Word(s) \n\n");
+    printf("1. Input File Name to program with extension Text File (.txt) \n2. To left this program, type 'exit' on File Name \n");
+    printf("3. To input another file, type 0 on total word(s) \n");
+    printf("4. This Program works for 0 < nGram < Total Word(s) \n\n");
     
     //Penggunaan fungsi input file dan fungsi parser dari file "parser.h"
     FILE* stream = readFile();
@@ -93,11 +93,10 @@ int main()
             
             // Fungsi Process dari file mencari.h untuk menuliskan hasil output pada file out.txt
             process(pasanganTable, nGram, out, totalKata);
-
             fclose(out);
 			
 			//Input kembali total kata baru
-            printf("Masukkan Total New Word(s)          : ");
+            printf("Input another Total Word(s)         : ");
             scanf("%d",&totalKata);
         }
         
