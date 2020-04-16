@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C 2019/2020
 * MODUL 8 – TUGAS BESAR
 * Kelompok : 4
-* Hari dan Tanggal : Rabu, 15 April 2020
+* Hari dan Tanggal : Kamis, 16 April 2020
 * Asisten (NIM) : Hamdani Fadhli (13217058)
 * Nama File : parser.c
 * Deskripsi : Parsing kata dari file eksternal
@@ -16,17 +16,19 @@
 FILE* readFile() {
     FILE* temp;
     char fileName[100];
-
-    printf("File Name(exit jika ingin keluar): ");
+	
+	//Input File Name
+    printf("Masukkan File Name (Ketik 'exit' jika ingin keluar dari program): ");
     gets(fileName);
 
     temp = fopen(fileName, "r");
+    // Check File dengan nama file tersebut, apakah ada atau tidak
     while (temp == NULL){
-        if (strcmp(fileName, "exit") == 0){
+        if (strcmp(fileName, "exit") == 0){ // Keluar program apabila inputan file = "exit"
             printf("Anda keluar!");
             exit(1);
         }
-        printf("Nama file tidak Valid ! \nFile Name(exit jika ingin keluar): ");
+        printf("Nama file tidak Valid ! \nMasukkan File Name(Ketik 'exit' jika ingin keluar dari program): ");
         gets(fileName);
 
         temp = fopen(fileName, "r");
