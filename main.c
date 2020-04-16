@@ -70,11 +70,13 @@ int main()
 					printf("Total Kata tidak mungkin negatif!!\n");
 					printf("Masukkan kembali total kata (Masukkan 0 untuk kembali ke input file) : ");
 					scanf("%d",&totalKata);
-					break;
+					
 				}
-				printf("Total Kata tidak mungkin lebih kecil dari nGram!\n");
-				printf("Masukkan kembali total kata : ");
-				scanf("%d",&totalKata);
+				else{
+					printf("Total Kata tidak mungkin lebih kecil dari nGram!\n");
+					printf("Masukkan kembali total kata : ");
+					scanf("%d",&totalKata);
+				}
 			}
 			
             // adding to table
