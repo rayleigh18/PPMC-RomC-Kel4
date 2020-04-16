@@ -29,29 +29,49 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
 	// nGram-1 Kata Pertama
 	char queue[nGram][MAX_HURUF];
     char first[10000];
-    
+    int  found = 0;
+
     srand((unsigned int)time(0)); //Seeding for Random Number
-    
+
     int  randomNumb = rand () % (pasanganTable->size+1);
-    
+        
     // (Untuk Debugging)
     //fprintf(out,"... %d ... ",a); 
     // fprintf(out,"|| ... %d ...",(pasanganTable->size+1));
-    int found = 0;
-    for (int i = randomNumb; i < SIZE_TABLE; i++){
-        if (pasanganTable->list[i]!= NULL){
-            strcpy(first , pasanganTable->list[i]->key);
-            found = 1;
-            break;
+    /*
+    
+    while (found != 1)
+    {
+        if(pasanganTable->list[randomNumb]!= NULL && randomNumb <SIZE_TABLE){
+                strcpy (first , pasanganTable->list[randomNumb]->key);
+                fprintf (out, "%s", pasanganTable->list[randomNumb]->key);
+                found = 1;
+                //break;
         }
     }
 
-    for (int i=0; (i < randomNumb) && !found; i++){
+    */
+    
+    
+    for (int i = randomNumb ; i< (SIZE_TABLE + randomNumb); i++){
         if (pasanganTable->list[i]!= NULL){
-            strcpy(first , pasanganTable->list[i]->key);
-            found = 1;
+            if (i < SIZE_TABLE ){
+                strcpy(first , pasanganTable->list[i]->key);
+                fprintf (out, "%s", pasanganTable->list[i]->key);
+                found = 1;
+                break;
+                }
+            else if (i >= SIZE_TABLE && !found){
+                strcpy(first , pasanganTable->list[ i - SIZE_TABLE ]->key);
+                fprintf (out, "%s", pasanganTable->list[i - SIZE_TABLE]->key);
+                found = 1;
+                break;                
+            }
         }
     }
+    
+   // fprintf (out, "------ first : %s, %d, %d ----------", first, randomNumb, pasanganTable->size+1);
+
 
     char *temp = strtok(first," ");
     strcpy(queue[0],temp);
