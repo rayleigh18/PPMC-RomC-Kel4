@@ -63,7 +63,7 @@ int main()
         }
         
         //Input totalKata
-        printf("Masukkan total kata (Masukkan 0 untuk kembali ke input file) : ");
+        printf("Masukkan total kata             : ");
         scanf("%d",&totalKata);
         
         //Untuk keluar dari Total Kata, totalkata = 0
@@ -72,13 +72,13 @@ int main()
 			while(totalKata < nGram){
 				if (totalKata < 0){ //Checker apabila Total Kata < 0
 					printf("Total Kata tidak mungkin negatif!!\n");
-					printf("Masukkan kembali total kata (Masukkan 0 untuk kembali ke input file) : ");
+					printf("Masukkan kembali total kata     : ");
 					scanf("%d",&totalKata);
 					
 				}
 				else{
 					printf("Total Kata tidak mungkin lebih kecil dari nGram!\n");
-					printf("Masukkan kembali total kata : ");
+					printf("Masukkan kembali total kata     :");
 					scanf("%d",&totalKata);
 				}
 			}
@@ -96,7 +96,7 @@ int main()
             fclose(out);
 			
 			//Input kembali total kata baru
-            printf("Masukkan total kata baru (Masukkan 0 untuk kembali ke input file): ");
+            printf("Masukkan total kata baru        : ");
             scanf("%d",&totalKata);
         }
         
