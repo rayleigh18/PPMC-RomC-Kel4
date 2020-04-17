@@ -39,15 +39,7 @@ int main()
     
     
     //Implementasi Algoritma
-    //Menu dan deskripsi program
-    printf("WELCOME!\n");
-    printf("This is Batch C/ Group 4's nGram Program\n");
-    printf("This program will help you make random sentence, you need to input file Name, number of nGram, and number of sentence. The Random Senteces will be saved in 'out.txt'\n\n");
-    printf("Rules :\n");
-    printf("1. Input File Name to program with extension Text File (.txt) \n2. To left this program, type 'exit' on File Name \n");
-    printf("3. To input another file, type 0 on total word(s) \n");
-    printf("4. This Program works for 0 < nGram < Total Word(s) \n\n");
-    //Menu
+    //Menampilkan Menu dan deskripsi program
     menu();
     
     //Penggunaan fungsi input file dan fungsi parser dari file "parser.h"
@@ -112,6 +104,7 @@ int main()
 void menu(){
 	printf("WELCOME!\n");
     printf("This is Batch C/ Group 4's nGram Program\n\n");
+    printf("This program will help you make random sentence, you need to input file Name, number of nGram, and number of sentence. The Random Senteces will be saved in 'out.txt'\n\n");
     printf("Rules :\n");
     printf("1. Input File Name to program with extension Text File (.txt) \n");
     printf("2. To left this program, type 'exit' on File Name \n");
