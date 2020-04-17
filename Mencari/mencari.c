@@ -51,7 +51,7 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
                 break;                
             }
         }
-    }
+    
 
     char *temp = strtok(first," ");
     strcpy(queue[0],temp);
