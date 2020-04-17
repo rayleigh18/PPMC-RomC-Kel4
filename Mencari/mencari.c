@@ -39,13 +39,13 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
         if (pasanganTable->list[i]!= NULL){
             if (i < SIZE_TABLE ){
                 strcpy(first , pasanganTable->list[i]->key);
-                fprintf (out, "%s ", pasanganTable->list[i]->key);
+                fprintf (out, "... %s ", pasanganTable->list[i]->key);
                 found = 1;
                 break;
                 }
             else if (i >= SIZE_TABLE && !found){
                 strcpy(first , pasanganTable->list[ i - SIZE_TABLE ]->key);
-                fprintf (out, "%s ", pasanganTable->list[i - SIZE_TABLE]->key);
+                fprintf (out, "... %s ", pasanganTable->list[i - SIZE_TABLE]->key);
                 found = 1;
                 break;                
             }
@@ -97,5 +97,6 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
                 }
             }
         }
+        fprintf(out,"... ");
     }
 
