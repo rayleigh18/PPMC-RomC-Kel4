@@ -79,10 +79,12 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
                 countKata++;
             }
             else{
+				int  randomNumb1 = rand () % (pasanganTable->size+1);
                 char first[10000];
-                for (int i = 0; i < SIZE_TABLE; i++){
-                    if (pasanganTable->list[i]!= NULL){
-                        strcpy(first , pasanganTable->list[i]->key);
+                for (int i = randomNumb1; i < SIZE_TABLE + randomNumb1; i++){
+                    if (pasanganTable->list[abs(i%SIZE_TABLE)]!= NULL){
+                        strcpy(first , pasanganTable->list[abs(i%SIZE_TABLE)]->key);
+                        break;
                     }
                 }
                 char *temp = strtok(first," ");
