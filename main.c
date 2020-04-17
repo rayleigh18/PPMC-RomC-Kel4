@@ -1,7 +1,7 @@
 /* EL2208 Praktikum Pemecahan Masalah dengan C
 *Modul 8 - TUGAS BESAR
 *Kelompok    : 
-*Hari/Tanggal: Kamis / 16 April 2020
+*Hari/Tanggal: Jumat / 17 April 2020
 *Asisten/NIM : Hamdani Fadhli / 13217058
 *Nama File   : main.c
 *Deskripsi   : Sebagai Main Program dan Penggabung Semua Fungsi-Fungsi yang ada
@@ -22,20 +22,20 @@
 #define SIZE_TABLE 10000
 #endif
 
-void Menu();
+void menu();
 
 int main()
 {
     // List Variabel
     table *pasanganTable = createTable(SIZE_TABLE);
     static char ret[250000][MAX_HURUF];
-    // char **ret;
-    // ret = (char**)malloc(250000*sizeof(char*));
-    // for (int i = 0; i < 250000; i++){
-    //     ret = (char*)malloc(MAX_HURUF*sizeof(char));
-    // }
+
     int size_ret;
     int nGram;
+    int totalKata;
+    
+    FILE *stream;
+    FILE *out;
     
     
     //Implementasi Algoritma
@@ -47,11 +47,12 @@ int main()
     printf("1. Input File Name to program with extension Text File (.txt) \n2. To left this program, type 'exit' on File Name \n");
     printf("3. To input another file, type 0 on total word(s) \n");
     printf("4. This Program works for 0 < nGram < Total Word(s) \n\n");
+    //Menu
+    menu();
     
     //Penggunaan fungsi input file dan fungsi parser dari file "parser.h"
-    FILE* stream = readFile();
-    while(stream != NULL){
-        int totalKata;
+    stream = readFile();
+    while(stream != NULL){  
 	    parser(stream, ret, &size_ret);
         
         //Input nGram
@@ -88,8 +89,7 @@ int main()
             // adding to table
             addKeyValToTable(pasanganTable,ret,size_ret,nGram);
             
-            //File output hasil program
-            FILE *out;
+            //Open File Output : out.txt for writing results
             out = fopen("out.txt","w");
             
             // Fungsi Process dari file mencari.h untuk menuliskan hasil output pada file out.txt
@@ -107,4 +107,14 @@ int main()
     }
     
     return 0;
+}
+
+void menu(){
+	printf("WELCOME!\n");
+    printf("This is Batch C/ Group 4's nGram Program\n\n");
+    printf("Rules :\n");
+    printf("1. Input File Name to program with extension Text File (.txt) \n");
+    printf("2. To left this program, type 'exit' on File Name \n");
+    printf("3. To input another file, type 0 on total word(s) \n");
+    printf("4. This Program works for 0 < nGram < Total Word(s) \n\n");
 }
