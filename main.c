@@ -58,7 +58,7 @@ int main()
         }
         
         //Input totalKata
-        printf("Input Total Word(s)                 :");
+        printf("Input Total Word(s)                 : ");
         scanf("%d",&totalKata);
         
         //Untuk keluar dari Total Kata, totalkata = 0
