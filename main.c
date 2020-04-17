@@ -39,9 +39,10 @@ int main()
     
     
     //Implementasi Algoritma
-    //Menu
+    //Menu dan deskripsi program
     printf("WELCOME!\n");
-    printf("This is Batch C/ Group 4's nGram Program\n\n");
+    printf("This is Batch C/ Group 4's nGram Program\n");
+    printf("This program will help you make random sentence, you need to input file Name, number of nGram, and number of sentence. The Random Senteces will be saved in 'out.txt'\n\n");
     printf("Rules :\n");
     printf("1. Input File Name to program with extension Text File (.txt) \n2. To left this program, type 'exit' on File Name \n");
     printf("3. To input another file, type 0 on total word(s) \n");
@@ -58,7 +59,7 @@ int main()
         scanf("%d",&nGram);
         while(nGram < 2) //Input checker untuk nGram < 2, karena dibawah 2 akan = kata random semua
         {
-            printf("nGram must be greater than 2!");
+            printf("nGram must be greater than 2!\n");
             printf("Input nGram value                   : ");
             scanf("%d",&nGram);
         }
