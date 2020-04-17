@@ -32,18 +32,19 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
     int  found = 0;
 
     srand((unsigned int)time(0)); //Seeding for Random Number
-
+	
+	fprintf(out, "... ");
+	
     int  randomNumb = rand () % (pasanganTable->size+1);
    
     for (int i = randomNumb ; i< (SIZE_TABLE + randomNumb); i++){
-        if (pasanganTable->list[i]!= NULL){
-            if (i < SIZE_TABLE ){
+            if ((i < SIZE_TABLE ) && (pasanganTable->list[i]!= NULL)){
                 strcpy(first , pasanganTable->list[i]->key);
                 fprintf (out, "%s ", pasanganTable->list[i]->key);
                 found = 1;
                 break;
                 }
-            else if (i >= SIZE_TABLE && !found){
+            else if ((i >= SIZE_TABLE && !found) && (pasanganTable->list[i - SIZE_TABLE]!= NULL)){
                 strcpy(first , pasanganTable->list[ i - SIZE_TABLE ]->key);
                 fprintf (out, "%s ", pasanganTable->list[i - SIZE_TABLE]->key);
                 found = 1;
@@ -97,5 +98,6 @@ void process(table *pasanganTable, int nGram, FILE *out, int totalKata)
                 }
             }
         }
-    }
+    fprintf(out, " ...");
+}
 
