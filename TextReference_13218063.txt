@@ -1,0 +1,456 @@
+Text tambahan Yasmin Sekar Arum (13218063)
+
+PENGARUH TINGGINYA ANGKA CYBERCRIME  TERHADAP MINAT BELANJA ONLINE MAHASISWA  ITB
+
+
+LAPORAN PENELITIAN
+Diajukan untuk memenuhi tugas mata kuliah Tata Tulis Karya Ilmiah
+pada Semester II tahun Akademik 2018-2019
+
+
+
+ABSTRAK
+
+Penelitian yang berjudul “Pengaruh Tingginya Angka Cybercrime  Terhadap Minat Belanja Online Mahasiswa  ITB” ini dilatarbelakangi oleh tingginya angka cybercrime yang terjadi dalam kegiatan belanja online sehingga penulis termotivasi untuk melakukan penelitian ini. Peneitian ini bertujuan untuk mengimbau masyarakat terutama Mahasiswa ITB agar lebih berhati-hati saat melakukan kegiatan belanja online. Masalah utama penelitian ini pengaruh tingkat cybercrime terhadap minat belanja online mahasiswa ITB. Data diperoleh dari kuesioner yang telah dibagikan kepada seluruh mahasiswa ITB sebelumnya. Data tentang cybercrime dalam kegiatan belanja online tersebut kemudian dianalisis.   Dari hasil analisis penelitian ini dapat disimpulkan bahwa tingginya angka cybercrime yang terjadi saat ini tidak mengurungkan minat mahasiswa ITB untuk berbelanja online.
+Kata kunci : E-commerce, belanja online, cybercrime, mahasiswa ITB.
+
+BAB I
+PENDAHULUAN
+
+1.1	Latar Belakang dan Rumusan Masalah
+1.1.1	Latar Belakang
+Ciri manusia sebagai makhluk hidup, yaitu memerlukan makanan, minuman, bernafas, tempat tinggal, dan pakaian. Untuk menikmati semua itu, diperlukan beberapa fasilitas pendukung yang memudahkan manusia untuk beraktivitas. Belanja menjadi salah satu cara mudah untuk memenuhi kebutuhan dasar tersebut. Dengan menukar barang --uang-- menjadi produk lain atau jasa sehingga kebutuhan dasar dapat terpenuhi.
+Pada zaman modern ini, perkembangan teknologi sudah sangat pesat. Hampir setiap kegiatan manusia dimudahkan dalam pelaksanaannya. Tidak terkecuali melakukan transaksi atau kegiatan berbelanja. Era digital kini memungkinkan melakukan transaksi dalam waktu yang singkat dengan tempat yang berbeda tanpa terjadi kontak fisik antara penjual dan pembeli. Dengan adanya internet dan toko online kegiatan berbelanja menjadi lebih mudah dan cepat, terlebih karena penggunanya dapat melakukan transaksi tidak terbatas waktu dan tempat. Kegiatan transaksi yang dilakukan pun menjadi lebih singkat, tanpa mengantri, tanpa menempuh perjalanan menuju toko, cukup meng-klik dan membayar via transfer dan barang akan dikirimkan ke alamat pembeli.
+Manfaat teknologi ini hampir dirasakan oleh banyak kalangan, tidak terkecuali mahasiswa ITB (Institut Teknologi Bandung). Mahasiswa ITB terkenal akan kesibukannya dalam beraktivitas di kampus, sehingga cukup sulit dalam pemenuhan kebutuhan dasarnya. Keberadaan teknologi bisa menjadi salah satu solusi pemenuhan kebutuhan dasar. Namun, ditengah kemudahaan penggunaannya transaksi online, terdapat kejahatan yang selalu mengintai. Cybercrime  adalah kejahatan yang menggunakan internet sebagai medianya, salah satu kejahatannya ialah penipuan melalui internet. Maraknya keberadaan cybercrime terkadang membuat seseorang takut untuk melakukan transaksi secara online. Dampak dari cybercrime  membuat beberapa pengguna enggan melakukan transaksi sehingga kemudahan yang ditawarkan oleh teknologi belanja online kurang terasa.
+Untuk menyikapi hal di atas, maka dilakukan penelitian untuk mengetahui pemahaman mengenai cybercrime, khususnya bagi Mahasiswa ITB dan dampak dari cybercrime itu sendiri terhadap frekuensi kegiatan transaksi online yang dilakukan.
+1.1.2.	Rumusan Masalah
+Berdasarkan penjabaran latar belakang di atas, dapat ditarik beberapa masalah yang terangkum menjadi :
+1.	Bagaimana minat mahasiswa ITB dalam melakukan belanja online?
+2.	Bagaimana pandangan mahasiswa ITB terhadap cybercrime dalam dunia online shop?
+3.	Bagaimana pengaruh tingkat cybercrime terhadap minat belanja online mahasiswa ITB?
+
+1.2.	Tujuan Penulisan dan Manfaat
+Terkait dengan rumusan masalah di atas bahwa tujuan dari penulisan karya ilmiah ini adalah menanggulangi dampak dari cybercrime terhadap frekuensi kegiatan transaksi online yang dilakukan oleh mahasiswa ITB.
+Adapun manfaat yang diharapkan dalam penelitian ini adalah dapat menjadi rujukan bagi semua masyarakat Indonesia terutama mahasiswa ITB agar berhati-hati dalam berbelanja online. 
+
+1.3.	Ruang Lingkup Kajian
+Ruang lingkup kajian merupakan rumusan masalah yang lebih spesifik, menjadi rujukan dalam proses pengumpulan data. Dalam menjawab rumusan masalah di atas perlu pengkajian beberapa pokok sebagai berikut:
+1.	Tingkat konsumtif mahasiswa ITB.
+2.	Rasio mahasiswa ITB melakukan belanja online dan belanja di toko.
+3.	Kelebihan dan kekurangan melakukan belanja online.
+4.	Pemahaman mahasiswa ITB mengenai cybercrime.
+5.	Tingkat terjadinya cybercrime  dalam belanja online.
+6.	Dampak dari cybercrime terhadap minat belanja mahasiswa ITB.
+7.	Tindakan mengantisipasi cybercrime dalam belanja online.
+
+1.4.	Anggapan Dasar
+Dalam perspektif hukum, cybercrime ini bukan merupakan kejahatan yang baru. Hanya media yang kemudian dikembangkan oleh para pelaku (Handoko, 2017). Namun, maraknya kasus cybercrime di dunia maya (internet) menjadi bahan pertimbangan bagi para pengguna internet untuk membeli barang dari usaha jual beli online (e-commerce) (Alfajri, 2015). Dalam berbagai kesempatan, keamanan jaringan merupakan pencegah terjadinya cybercrime.
+
+1.5.	Hipotesis
+Cybercrime memiliki dampak negatif terhadap minat belanja para mahasiswa ITB. Dampak ini dapat diminimalisir melalui keamanan jaringan dan pengetahuan mahasiswa ITB mengenai cybercrime.
+
+1.6.	Metode dan Teknik Pengumpulan Data
+1.6.1.	Metode
+Dalam penyusunan karya ilmiah ini, metode penelitian yang digunakan penulis yaitu dengan metode deskriptif analitis. Adapun pengertian dari metode deskriptif analitis adalah suatu metode yang berfungsi untuk mendeskripsikan atau memberi gambaran terhadap objek yang diteliti melalui data atau sampel yang telah terkumpul sebagaimana adanya tanpa melakukan analisis dan membuat kesimpulan yang berlaku untuk umum (Sugiono: 2009; 29). Dengan kata lain penelitian deskriptif analitis mengambil masalah atau memusatkan perhatian kepada masalah-masalah sebagaimana adanya saat penelitian dilaksanakan, hasil penelitian yang kemudian diolah dan dianalisis untuk diambil kesimpulannya. Maka, menggunakan metode deskriptif analisis dirasa cocok untuk mengetahui pengaruh tingginya angka cybercrime terhadap minat belanja online mahasiswa ITB.
+1.6.2.	Teknik Pengumpulan Data
+Dalam melakukan penelitian, diperlukan teknik pengumpulan data yang cocok untuk mendapatkan data dan informasi yang akurat dan dapat dipertanggungjawabkan. Untuk memperoleh data, penulis menggunakan kuisioner yang berisi pertanyaan-pertanyaan yang berkaitan dengan judul penelitian yang ditujukan kepada mahasiswa ITB. 
+
+1.7.	Sistematika Penulisan
+Penulisan laporan penelitian ini terbagi menjadi empat bab,  yaitu pendahuluan, teori dasar online shop,  pengaruh tingkat cybercrime terhadap kegiatan berbelanja online mahasiswa ITB, serta simpulan dan saran. Pada bab satu akan dibahas mengenai latar belakang pengangkatan aspek laporan penelitian ini, rumusan masalah, tujuan penelitian, ruang lingkup kajian, metode dan teknik pengumpulan data pada laporan penelitian ini, serta sistematika penulisan. Pada bab dua akan disajikan penjelasan umum dan aspek-aspek yang akan dikaji mengenai online shop, cybercrime dalam berbelanja online, mahasiswa ITB, keadaan di lapangan mengenai minat belanja online mahasiswa, dan pemahaman mahasiswa mengenai cybercrime. Bab tiga akan menjabarkan dan menganalisis masalah-masalah yang telah dirumuskan secara lengkap berupa gambaran umum mengenai minat mahasiswa melakukan transaksi secara online, serta pengaruh dan dampak dari cybercrime  terhadap minat belanja mahasiswa khususnya mahasiswa ITB. Bab empat berisi tentang simpulan dan saran dari penulis mengenai permasalahan yang kami angkat terkait dengan cybercrime dalam berbelanja online.
+
+
+
+
+
+
+
+
+1.	BAB II
+2.	TEORI DASAR
+2.1.	Online Shop dan Online Shopping
+2.1.1.	Pengertian 
+Menurut Anang YB (2010:18), toko online memungkinkan terjadinya transaksi pembelian barang dan jasa melalui media internet. Kegiatan belanja online merupakan bentuk komunikasi baru yang tidak memerlukan komunikasi tatap muka secara langsung melainkan dapat dilakukan secara terpisah dari dan ke seluruh dunia. Melalui media notebook, komputer atau handphone yang tersambung dengan akses internet.
+Menurut Didit Agus Irwantoko, belanja online (online shopping) merupakan proses pembelian barang/jasa oleh konsumen ke penjual realtime, tanpa pelayan, dan melalui internet. Toko virtual ini mengubah paradigma proses membeli barang/jasa dibatasi oleh tembok, pengecer, atau mall (Didit Agus Irwantoko,2012).
+Belanja online (online shopping) adalah proses dimana konsumen secara langsung membeli barang-barang, jasa dan lain-lain dari seorang penjual secara interaktif dan real-time tanpa suatu media perantara melalui Internet (Mujiyana & Elissa, 2013).
+Online shopping atau belanja online via internet, adalah suatu proses pembelian barang atau jasa dari mereka yang menjual melalui internet, atau layanan jual-beli secara online tanpa harus bertatap muka dengan penjual atau pihak pembeli secara langsung (Sari, 2015).
+Seiring dengan terjadinya perubahan perekonomian dan globalisasi, membuat perubahan dalam perilaku berbelanja pada masyarakat. Perilaku yang berubah dalam hal berbelanja pada masyarakat merupakan konsekuensi logis dari tuntutan kehidupan yang dipicu dengan adanya perkembangan teknologi komunikasi dan informasi. Pada awalnya penjualan barang dilakukan secara konvensional (offline), yaitu antara penjual dan pembeli bertemu secara langsung untuk melakukan transaksi jual beli. Seiring dengan kemajuan teknologi internet penjualan bisa dilakukan secara online (Sari, 2015).
+Hasil survey terakhir (Desember 2011) menunjukkan bahwa 36% dari seluruh transaksi perdagangan yang terjadi di Indonesia di lakukan secara online. Diperkirakan 80% dari transaksi online tersebut ternyata dilakukan oleh bisnis online berskala Mikro Kecil (UMK). Omzet dari bisnis online berskala UMK ini mulai dari dua juta per bulan, hingga puluhan juta per bulan, namun karena jumlahnya sangat banyak, maka omzet keseluruhan UMK online mampu mencapai 80% dari keseluruhan transaksi online (Bonafide Logo, 2012).
+ Survey yang dapat menjadi tolok ukur untuk mengetahui kecenderungan konsumen dalam berbelanja melalui online tersebut dilakukan di 25 negara dengan periode antara 5 Desember 2011 hingga 6 Februari Laporan untuk kawasan Asia/Pasifik Thailand, Cina, Jepang, Korea, Australia, Malaysia, Selandia Baru, Taiwan, Vietnam, Hong Kong, Indonesia, Singapura, India, Filipina juga dilengkapi dengan wawancara mengenai perilaku berbelanja online terhadap responden dari 14 negara catatan: hasil survei dan laporan yang menyertainya tidak mencerminkan kinerja keuangan MasterCard, (DuniaUKM, 2012).
+2.1.2.	Jenis Online Shop
+Secara garis besar, DuitPintar.com mengelompokkan toko-toko online yang ada di Indonesia dalam lima jenis sarana yang dipakai. 
+1.	Toko Online dengan Domain Sendiri
+Hal pertama yang perlu diketahui mengenai Alamat IP yang dimiliki semua situs yang ada di jaringan internet. Tiap komputer memiliki Alamat IP yang berbeda, dalam bentuk angka. Tiap situs pun mempunyai server komputer, yang artinya memiliki Alamat IP. Domain merupakan nama unik yang memudahkan pengguna internet untuk mengakses sebuah situs, di banding harus mengetikkan Alamat IP yang berupa angka di kotak URL. Contoh: namadomain.com lebih mudah diingat daripada alamat IP 255.255.255.255. Domain yang dapat dipakai bermacam-macam:
+	.com;
+	.net;
+	.org;
+	.co.id (toko online harus berbadan hukum);
+	.biz.id;
+	dan banyak lagi.
+Memakai domain milik sendiri prosesnya lebih rumit dibandingkan sarana toko online lainnya. Pertama, Anda harus membeli nama domain tersebut, misalnya: namatoko.com. Selanjutnya, mencari web hosting, mendesain, dan seterusnya. Jangan lupa bahwa nama domain tersebut harus dibayar per tahunnya. Akan tetapi, memiliki nama domain sendiri dinilai lebih menguntungkan untuk toko online. Selain lebih dipercaya (terlihat kredibel), juga sangat membantu branding nama toko tersebut. Istilahnya, Anda punya gedung sendiri, tidak menebeng ruangan di gedung orang. Dewasa ini pun banyak jasa pembuat toko jenis satu ini yang instan dengan domain sendiri, seperti Shopify dan kawan-kawannya.
+
+
+2.	Toko Online dengan Situs Gratis
+Ada juga pilihan untuk memiliki sebuah situs dengan gratis. Saat ini sudah banyak jasa rumah domain. Jadi, nama toko dijadikan subdomain dari situs induk tempatnya terdaftar. Istilahnya, menebeng domain. Platform blogging termasuk salah satunya, seperti WordPress. Misalnya, rumah domain adalah Weebly.com. Jadi URL situs Anda akan menjadi: namatoko.weebly.com. Google juga mengeluarkan fasilitas situs gratis, Google Sites. Contoh URL-nya: sites.google.com/site/namatoko. Kelebihan sarana ini adalah, selain gratis, Anda juga dapat meng-edit dan mendesain situs toko online Anda tanpa perlu mengetahui bahasa coding atau HTML.
+3.	Toko Online dalam Situs Direktori Bisnis
+Model direktori bisnis jika diumpamakan, seperti buku kuning Telkom jaman dulu. Jadi situs ini seperti wadah bagi toko-toko online untuk berjualan. Bisa juga dibilang seperti ‘mall online’ dengan listing perusahaan dan produk atau jasa.
+Situs direktori memberi sarana halaman khusus, dimana masing-masing toko dapat mendeskripsikan usahanya dan menampilkan barang-barang yang dijual. Contohnya: indonetwork.co.id, dimana halaman toko online-nya menjadi namatoko.indonetwork.co.id dan halaman produk toko tersebut adalah namatoko.indonetwork.co.id/produk.
+Situs direktori seperti ini biasanya gratis. Kalaupun ada yang bayar, biasanya dengan fasilitas lebih. Misalnya, tampil di urutan paling atas ketika seorang pengguna mencari barang tertentu. Biasanya, tampilan desain toko juga tidak terlalu banyak dapat diubah.
+4.	Toko Online lewat Situs Forum
+Internet memiliki segudang komunitas, dimana sarananya berupa situs forum. Kaskus adalah contoh situs forum yang paling terkenal. Namun, ada juga media-media terkemuka yang menyediakan forum dengan kategori jual-beli, seperti Kompas, Detik, dan sebagainya. Misalnya, Anda berjualan casing ponsel anti air. Target pasar yang cocok adalah komunitas penyelam. Anda tinggal mendaftarkan diri di forum komunitas penyelam dan mencoba menjual casing ponsel tersebut dengan posting.
+5.	Toko Online di Social Media
+Sosial media sudah menjadi media yang kuat untuk berbagai hal. Prinsipnya adalah ‘dari mulut ke mulut’ yang dibawa ke dunia online yang tidak berbatas jarak dan waktu. Sarana social media yang paling populer untuk toko online adalah Facebook. Platform social media milik Mark Zuckerberg tersebut juga menyediakan Facebook Page, yang dikhususkan untuk bisnis, branding, dan organisasi. Salah satu perbedaannya dengan akun Facebook pribadi adalah para pengunjung tidak perlu melewati proses ‘permintaan pertemanan’ atau friend request. Dengan sosial media, toko satu ini dapat lebih mudah meng-update barang jualannya. Cukup unggah foto atau album, atau pasang status.
+6.	Toko Online via Messenger Smartphone
+Berbagai riset data statistik menunjukkan bahwa pengguna smartphone di Indonesia terus meningkat. Orang Indonesia bisa dibilang ‘ketagihan’ chatting di smartphone. Fakta ini memberikan peluang untuk berjualan via messenger smartphone. Yang paling booming adalah melalui Blackberry Messenger. Berjualan via messenger smartphone bisa dibilang paling praktis. Namun, jangkauan pasar dan kredibilitasnya tidak optimal.
+
+2.2.	Cybercrime 
+2.2.1.	Pengertian
+Menurut Parker (Hamzah 1993:18), cybercrime adalah suatu tindakan atau kejadian yang berkaitan dengan teknologi komputer. Dimana seseorang mendapatkan keuntungan dengan merugikan pihak lain.
+Menurut Wahid dan Labib (2010:40), pengertian cybercrime adalah semua jenis pemakaian jaringan komputer untuk tujuan kriminal dengan penyalahgunaan kemudahan teknologi digital.
+Menurut Widodo (2011:), pengertian cybercrime adalah semua kegiatan individu atau kelompok yang memakai jaringan komputer sebagai sarana melakukan kejahatan, atau menjadikan komputer sebagai sasaran kejahatan.
+Menurut Organization of European Community Development (OECD), kejahatan dunia maya atau cybercrime adalah semua akses ilegal terhadap suatu transmisi data. Artinya, semua kegiatan yang tidak sah dalam suatu sistem komputer termasuk suatu tindak kejahatan (Karnasudiraja, 1993:3).
+Dari pengertian kejahatan computer menurut peraturan perundangundangan di Virginia dapat dipahami bahwa sesuatu yang berhubungan dengan peralatan pemerosesan data listrik, magnetic, optic, elektro kimia, atau peralatan kecepatan tinggi lainnya dalam melalukan logika aritmatika, atau fungsi penyimpanan dan memasukkan beberapa fasilitas penyimpanan data atau fasilitas komunikasi yang secara langsung berhubungan dengan operasi tersebut dalam konjungsi dengan peralatan tersebut tidak memasukkan mesin ketik otomatis atau tipesetter, sebuah kalkulator tangan atau peralatan serupa lainnya. 
+2.2.2.	Bentuk Cybercrime dalam Belanja Online
+Dalam melakukan belanja online, terdapat beberapa bentuk cybercrime yang paling sering terjadi, antara lain
+	Penipuan kualitas barang dan online shop fiktif oleh pedagang
+	Hit and run yang dilakukan oleh konsumen
+	Mengirim bukti transaksi palsu yang dilakukan oleh konsumen kepada penjual
+		
+2.3.	Mahasiswa ITB
+Menurut Suwono (1978) mahasiswa adalah setiap orang yang secara sekitar delapan belas hingga tiga puluh tahun. Mahasiswa merupakan suatu kelompok dalam masyarakat yang memperoleh statusnya karena ikatan dengan perguruan tinggi. Mahasiswa juga merupakan calon intelektual atau cendekiawan muda dalam suatu lapisan masyarakat yang sering kali sarat dengan berbagai predikat.
+Menurut Kamus Bahasa Indonesia (KBI), mahasiswa didefinisikan sebagai orang yang belajar di Perguruan Tinggi.
+Knopfemacher berpendapat, mahasiswa (dalam Suwono, 1978) adalah insan-insan calon sarjana yang dalam keterlibatannya dengan perguruan tinggi (yang makin menyatu dengan masyarakat) dididik dan diharapkan menjadi calon-calon intelektual. 
+Pengertian mahasiswa menurut Knopfemacher (dalam Suwono, 1978) adalah insan-insan calon sarjana yang dalam keterlibatannya dengan perguruan tinggi (yang makin menyatu dengan masyarakat) dididik dan diharapkan menjadi caloncalon intelektual.
+Menurut Hartaji (2012), Mahasiswa adalah seseorang yang sedang dalam proses menimba ilmu ataupun belajar dan terdaftar sedang menjalani pendidikan pada salah satu bentuk perguruan tinggi yang terdiri dari akademik, politeknik, sekolah tinggi, institut dan universitas.
+Berdasarkan beberapa pengertian di atas, dapat ditarik kesimpulan bahwa mahasiswa merupakan individu yang sedang menuntut ilmu di perguruan tinggi atau suatu lembaga khusus.
+Dalam bahasan sub-bab kali ini, pembahasan difokuskan pada mahasiswa ITB, yaitu mahasiswa yang menuntut ilmu di Institut Teknologi Bandung. Institut Teknologi Bandung merupakan sebuah Perguruan Tinggi di Bandung dengan fokus pembahasan pada teknik.
+
+2.4.	Minat Belanja Online Mahasiswa
+Berdasarkan pengertiannya, mahasiswa berada pada rentang usia yang cukup rentan mengalami berbagai perubahan, seperti lingkungan, sifat, atau mungkin kebiasaan yang membawa pengaruh bagi kehidupan mahasiswa, salah satunya kebutuhan hidup mahasiswa. Belanja online merupakan salah satu media pemenuhan kebutuhan hidup mahasiswa, tidak hanya itu, melalui belanja online kebutuhan lain mahasiswa yang tidak terlalu mendesak juga dapat terpenuhi. Sehubungan dengan tingkat kedewasaan mahasiswa yang biasanya masih kurang tinggi, menyebabkan minat belanja online yang ada pada mahasiswa semakin tinggi. 
+
+2.5.	Pemahaman Mahasiswa Mengenai Cybercrime
+Mahasiswa mendapat statusnya dikarenakan ikatan dengan perguruan tinggi. Artinya, seseorang dilabeli sebagai mahasiswa karena sedang berada dalam proses menimba ilmu di perguruan tinggi. Pada zaman modern ini, wawasan mengenai kriminalitas merupakan salah satu hal umum dan penting yang diajarkan kepada para mahasiswa. Terutama mengenai cybercrime, mahasiswa umumnya mengetahui dan memahami apa itu cybercrime. Namun, kerap kali pemahaman mahasiswa mengenai cybercrime hanya sebatas teori saja, sehingga menimbulkan penurunan kewaspadaan mahasiswa terhadap cybercrime itu sendiri.
+
+ 
+BAB III
+PEMBAHASAN PENGARUH CYBERCRIME 
+TERHADAP MINAT BELANJA ONLINE MAHASISWA ITB
+Data sekunder diperoleh dari hasil kuesioner yang disebarkan ke beberapa fakultas dan sekolah yang ada di ITB angkatan 2014, 2015, 2016, 2017, dan angkatan 2018. Perbesaran kuesioner dilakukan dalam kurun waktu dua pekan. Berdasarkan data yang telah dikumpulkan ada 65 responden yang berasal dari angkatan 2018, 2 orang  dari angkatan 2017, 1 orang dari angkatan 2016, 1 orang dari angkatan 2015, dan 1 orang dari angkatan 2014. Jadi, total penyebaran kuesioner di ITB ada 70 responden yang sudah mengisi kuesioner.
+1.	Da.
+3.1.	Minat Mahasiswa dalam Melakukan Belanja Online
+Zaman modern ini pemenuhan kebutuhan manusia dapat dilakukan dengan berbelanja, dengan berkembangnya teknologi, kemudahan melakukan transaksi sangat mebantu manusia dalam pemenuhan kebutuhannya. Keberadaan toko online yang sangat mudah untuk dijangkau pada situasi apapun membuat mulai bergesernya pembelian ke toko konvensional menjadi ke toko online. Kemudahan dalam melakukan transaksi online ini juga sudah dirasakan oleh mahasiswa ITB. 
+ 
+Diagram 1 Pengalaman Melakukan Transaksi Online
+
+Berdasarkan data yang telah dikumpulkan dari kuesioner selama 2 pekan, sebanyak 94 % responden sudah pernah melakukan transaksi secara online. Alasan mahasiswa ITB melakukan transaksi secara online ialah beberapa merasa dimudahkan dalam pemenuhan kebutuhannya dengan berbelanja secara online, menghemat waktu, tempat, juga promo menjadi daya tarik sendiri dalam melakukan transaksi online. 
+
+ 
+Diagram 2 Frekuensi Berbelanja Online Mahasiswa ITB dalam Satu Bulan
+Berdasarkan data yang telah dikumpulkan melalui kuesioner, diketahui bahwa sekitar 80 % responden berbelanja online kurang dari tiga kali dalam kurun waktu satu bulan. Hal ini masih di anggap sangat kecil untuk pemanfaatan penggunaan teknologi dalam pemenuhan kebutuhan hidup. Mahasiswa ITB masih jarang untuk berbelanja online dan lebih memilih berbelanja secara konvensional. Terdapat sekitar 4 % responden yang melakukan transaksi online sebanyak 5-7 kali dalam sebulan, 3% responden yang melakukan transaksi secara online sebanyak lebih dari 10 kali.
+
+ 
+Diagram 3 Perbandingan Penggunaan Toko Online 
+
+Kemudahan bertransaksi secara online membuat banyak toko online untuk berbelanja, berdasarkan data yang telah di kumpulkan, sebanyak 63 % responden lebih sering bebrbelanja di toko online Shopee, 53 % berbelanja di Tokopedia 49 % berbelanja di Bukalapak, 36% berbelanja melalui situs Instagram, 36 % berbelanja melalui website, dan 30 % berbelanja melalui aplikasi Lazada.
+Pemilihan toko-toko berbelanja ini didasari oleh beberapa alasan, diantaranya jasa dan layanan yang diberikan, potongan harga, dan promo yang ditawarkan. Kemudahan transaksi juga dianggap menjadi salah satu alasan penggunaan toko online tersebut.
+
+3.2.	Pemahaman Mahasiswa Mengenai Cybercrime dalam Berbelanja Online
+ 
+Diagram 4 Pengetahuan Responden Mengenai Cybercrime
+
+Pengetahuan mengenai cybercrime beserta contoh bentuknya dibutuhkan oleh para mahasiswa untuk dapat mempengaruhi kegiatan belanja online mereka. Berdasarkan data yang dikumpulkan, 93,4% responden mengetahui mengenai cybercrime. Mayoritas responden mengartikan cybercrime sebagai bentuk kejahatan dalam dunia maya. Bentuk-bentuk cybercrime yang umum dan dikenal oleh responden serta paling dominan ialah pemalsuan atau penipuan identitas online shop, selain itu ada juga pemalsuan cek atau bukti transfer (dialami oleh penjual online), barang tidak dikirim oleh penjual, kualitas barang tidak sesuai dengan gambar atau spesifikasi, serta bentuk lainnya. Berdasarkan pemahaman responden, 50% responden menyatakan saat ini angka cybercrime dalam kegiatan belanja online dalam parameter angka berada di skala tiga dari lima.
+
+3.3.	Pengaruh Cybercrime terhadap Minat Belanja Mahasiswa ITB
+ 
+Diagram 5 Pengalaman Responden Terhadap Cybercrime dalam Belanja Online
+
+Berdasarkan data kuesioner yang disebar, diketahui bahwa terdapat  35,7% responden yang merupakan mahasiswa ITB pernah mengalami cybercrime dalam belanja online dan sebanyak 64% lainnya tidak pernah menyalami cybercrime. Bentuk cybercrime yang paling sering dialami responden adalah kualitas barang yang tidak sesuai dengan gambar atau spesifikasi, hal ini bisa jadi dikarenakan pemalsuan gambar merupakan penipuan yang paling mudah untuk dilakukan. Bentuk cybercrime lainnya yang dialami responden adalah barang yang tidak dikirim oleh penjual, jadi penjual tidak mengirimkan barang kepada pembeli setelah  pembeli melakukan transaksi. Biasanya penipuan seperti ini terjadi dalam transaksi online yang tidak berbadan hukum. Contohnya ialah bertransaksi di Instagram, dimana setiap toko tidak terikat badan hukum sehingga lebih mudah dalam melakukan penipuan dan pemalsuan barang dan toko. Sedangkan untuk toko unicorn, kemungkinan sangat kecil untuk barang yang tidak di kirim ke pelanggan, karena toko besar seperti ini sudah resmi dan terikat dengan hukum.  Bentuk lainnya yang pernah dialami oleh Mahasiswa ITB ialah pemalsuan atau penipuan identitas online shop, bentuk penipuan bisa peniuan gambar, penipuan kualitas barang, maupun penipuan toko (toko sebenarnya tidak ada dan hanya menarik pelanggan palsu). 
+
+ 
+Diagram 6 Minat Belanja Online Responden dengan Pengaruh Cybercrime
+
+Maraknya cybercrime yang terjadi saat belanja online tidak mengurangi minat belanja online mahasiswa ITB. Hal ini dapat dilihat dari data kuesioner yang sudah dibagikan, dimana responden yang telah mengalami cybercrime dalam belanja online pun tetap berminat untuk belanja secara online karena masih banyak kelebihan yang didapatkan. Terdapat 94,3% responden yang masih berminat berbelanja online setelah mengetahui atau pernah mengalami cybercrime saat belanja online. 
+Sebagian besar responden masih berminat melakukan belanja online karena transaksi belanja online dapat dilakukan dimana saja dan kapan saja sehingga tidak membuang waktu untuk pergi ke toko konvensional (dirasa lebih efisien). Selain itu, terkadang terdapat beberapa barang yang dibutuhkan atau dicari hanya tersedia di toko online. Barang yang dijual di toko online cenderung lebih murah daripada toko konvensional sehingga hal tersebut juga menjadi salah satu alasan sebagian besar responden untuk tetap berbelanja online. Walaupun cybercrime dalam belanja online yang dilakukan penjual sudah marak terjadi, masih banyak toko online yang berlaku jujur dan dapat dipercaya. Jadi, cybercrime dapat dihindari dengan cara pandai-pandai memilih toko online yang terpercaya. Untuk mengetahui toko online yang terpercaya dapat dilihat dengan penilaian yang diberikan oleh konsumen yang telah berbelanja di toko online tersebut, misalnya berbelanja online di platform besar atau toko unicorn seperti Tokopedia dan Bukalapak yang sudah berbadan hukum, dimana quality controlnya sudah terjaga sehingga dapat meminimalisir kemungkinan terkena cybercrime berbentuk penipuan. Selain itu, seiring dengan maraknya toko online, untuk setiap cybercrime yang dialami oleh pelanggan dapat di laporkan ke badan hukum agar dapat ditindak lajuti dan tidak terdapat korban lagi selanjutnya.
+
+
+BAB IV
+KESIMPULAN DAN SARAN
+4.1.	Kesimpulan
+Hipotesa bahwa cybercrime memberikan pengaruh terhadap minat beanja terbukti salah. Peristiwa cybercrime tidak memberi pengaruh yang signifikan kepada minat belanja mahasiswa ITB. Hal ini disebabkan lebih besarnya pengaruh faktor lain dibandingkan cybercrime itu sendiri. Faktor-faktor tersebut diantaranya kegiatan belanja yang lebih praktis, produk yang cenderung lebih lengkap dibandingkan toko konvensional, serta harga yang lebih murah. Namun, untuk mengatasi cybercrime dapat dilakukan berbagai pencegahan oleh penjual maupun pembeli. Untuk penjual dapat meningkatkan keamanan transaksi sehingga dapat menyeleksi kualitas pembeli. Sedangkan untuk pembeli dapat meningkatkan kewaspadaan sebelum memilih toko online dan juga memberi penilaian setelah melakukan pembelian sehingga dapat menjadi masukan bagi pembeli berikutnya.
+
+4.2.	Saran
+Dari penelitian ini, penulis merasa ada beberapa masukan baik bagi pihak yang membuka lapak dagang online maupun bagi para pembeli atau pengguna layanan. Untuk pengguna layanan disarankan untuk berbelnja online pada situs-situs resmi yang sudah terkat oleh hokum maupun di toko online terpercaya. Selain itu pembeli dapat pula membagikan pengalaman positif maupun negatif saat berbelanja di salah satu gerai online sehingga dapat menjadi bahan pertimbangan bagi pembeli berikutnya. Sedangkan untuk para penjual, aksi cybercrime dapat dicegah melalui pengetatan keamanan toko online, seleksi terhadap calon pembeli yang tepat, serta itikad yang baik dalam berjualan sehingga menghilangkan rasa ingin mencari keuntungan melalui cara yang salah. Dalam melakukan penelitian ini, penulis merasa terdapat beberapa kekurangan selama melakukan penelitian dan data yang digunakan menjadi tidak terlalu absolute. Kedepannya penelitian ini bisa dikembangkan, dengan pengambilan data sampel yang lebih umum dan lebih menyebar sehingga tidak terlalu condong kepada salah satu bagian saja. Penelitian juga dapat dilakukan dengan cakupan bahasan yang lebih spesifik, sehingga hasil dari penelitian dapat valid dan digunakan.
+
+
+
+
+INDEKS
+Booming 13
+Bukalapak 20, 24
+
+Coding 11
+
+Direktori 11, 12
+Domain 9, 10, 11s
+
+Hamzah 13
+Hartaji 16
+Hit and run 15
+
+Instagram 21, 23
+
+Knopfemacher 15
+Konvensional 8, 18, 20, 24, 26
+
+Offline 8
+
+Sari 8
+Smartphone 13
+Subdomain 11
+Survey 8, 9
+Suwono 15
+
+Tokopedia 20, 24
+
+Unicorn 23, 24
+URL 10, 11
+
+Web 10
+Website 21
+
+Zuckerberg 13
+
+
+
+
+LAMPIRAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RIWAYAT HIDUP
+Naomi Yolanda Bernadetta lahir di Jakarta pada tanggal 27 Januari 2001. Penulis merupakan anak kedua dari tiga bersaudara. Pada tahun 2018, penulis lulus dari SMA Unggul Del dengan predikat Alumni Terbaik Ke-3 Angkatan 2018. Semasa SMA penulis aktif di beberapa organisasi seperti Biology Olympiad dan juga Paduan Suara. Penulis menerima empat medali dari dua perlombaan paduan suara tingkat internasional. Saat ini, penulis melanjutkan pendidikan di Sekolah Teknik Elektro dan Informatika, Institut Teknologi Bandung. Penulis merupakan penerima beasiswa dari Tanoto Foundation, aktif di Persekutuan Mahasiswa Kristen Institut Teknologi Bandung serta Tanoto Scholars Assosiation.
+
+Ferdina Wiranti Afifah lahir di Cirebon pada tanggal 1 Februari pada tahun 2000 dari pasangan Bapak Dana Rediyanta dan Ibu Teky Renggani. Penulis merupakan anak pertama dari dua bersaudara. Penulis menempuh pendidikan dasar di SDIT Salsabila 5 Purworejo. Setelah menempuh pendidikan selama enam tahun di pendidikan dasar, penulis melanjutkan pendidikan ke jenjang selanjutnya di kota yang sama, tepatnya di SMP Negeri 2 Purworejo. Pada tahun 2015, penulis melanjutkan studi ke tingkat yang lebih tinggi ke jenjang SMA, yaitu SMA N 1 Purworejo hingga akhirnya penulis lulus pada tahun 2018. Setelah itu, penulis melanjutkan ke jenjang pendidikan tinggi di Kota Bandung. Penulis mengenyam pendidikan di Institut Teknologi Bandung dan sampai saat ini penulis masih terdaftar sebagai mahasiswa S1 semester dua di Sekolah Teknik Elektro dan Informatika (STEI). Penulis pernah memenangkan lomba siswa berprestasi tingkat Kecamatan Banyurip. Penulis juga sempat mendapat peringkat tiga saat lomba kaligrafi di tingkat Provinsi Jawa Tengah pada tahun 2011. Saat ini penulis aktif di kegiatan kerohanian Islam.
+
+Yasmin Sekar Arum lahir di Bogor pada tanggal 28 Januari 18 tahun yang lalu dari pasangan Bapak  Budiman Achmad dan Ibu Dian Diniyati. Penulis merupakan anak kedua dari tiga bersaudara yang semuanya merupakan perempuan. Penulis menempuh pendidikan dasar di SD Negeri 3 Ciamis, setelah menempuh pendidikan selama enam tahun di pendidikan dasar, penulis melanjutkan pendidikan ke jenjang selanjutnya di kota yang sama, tepatnya di SMP Negeri 1 Ciamis. Lulus pada tahun 2015, penulis melanjutkan studi ke tingkat yang lebih tinggi ke jenjang SMA. Tahun 2015 penulis masuk ke SMA islam, SMA Al-Muttaqin Fullday School Tasikmalaya, setahun kemudian penulis pindah ke sekolah di kota kembang, tepatnya di SMA Negeri 3 Bandung hingga akhirnya penulis lulus pada tahun 2018. Di kota yang sama, penulis melanjutkan ke jenjang pendidikan tinggi, penulis mengenyam pendidikan di Intitut Teknologi Bandung di Sekolah Teknik elektro dan Informatikka (STEI) tahun angkatan 2018 yang saat ini sedang menempuh semester kedua. Sampai saat ini penulis pernah membuat cerpen Langit merindu!  Yang dipublikasikan di majalah sekolah, juga cerpen ‘Terjebak di (Negeri) Sakura’, selain membuat karya fiksi penulis juga pernah membuat karya tulis ilmiah yang di ajukan untuk lomba yaitu ‘Pemanfaatan air limbah wudhu sebagai suplay listrik sekolah’, ‘Smart Wash, pengering pel untung men-charge daya ponsel’, dan yang terakhir ialah ‘Wes-Was, solusi ramah lingkungan dan sehat dalam menjaga kebersihan pakaian’. Kesan yang dimiliki penulis selama mengikuti Tata Tulis Karya Ilmiah adalah bersemangat untuk  memperbaiki diri dalam penggunaan kaidah Bahasa Indonesia dengan baik dan benar yang akan membantu penulis untuk meningkatkan kualitas tulisan terutama dalam penulisan karya tulis ilmiah dan semoga kedepannya akan disajikan kelas yang lebih interaktif dengan pemanfaatan teknologi yang ada pada saat ini.
+
+
+
+
+
+
+
+ABSTRACT
+
+This research entitled “Pengaruh Tingginya Angka Cybercrime  Terhadap Minat Belanja Online Mahasiswa  ITB” is backed by the hight score level of cybercrime that happened when do online shopping so the author had motivated to do this research. This research have the purpose to be a warning for the society especially for ITB’s students in order to be more careful when do online shopping. The main problem in this research is influence of level cybercrime against shopping interest ITB’s studets. Data obtained from questionnaire that distributed to ITB’s students, before. Such data about cybercrime in online shopping that analized. From the analysis of the data, it can be concluded  that the high level of cybercrime that happened now does’nt undo the interest of ITB’sstudents to do online shopping.
+Kata kunci : E-commerce, online shopping, cybercrime, ITB’s students.
+
+PRAKATA
+Puji syukur penulis panjatkan ke hadirat Tuhan Yang Maha Esa karena berkat rido-Nyalah penulis dapat menyelesaikan karya tulis yang berjudul “Pengaruh Tingginya Angka Cybercrime terhadap Minat Belanja Online Mahasiswa ITB”. Karya Tulis ini merupakan salah satu tugas mata kuliah Tata Tulis Karya Ilmiah pada Semester Genap Tahun Akademik 2018/2019 di Institut Teknologi Bandung.
+Pada era modern ini, belanja melalui situs daring merupakan salah satu opsi bagi para konsumen. Mahasiswa merupakan salah satu objek utama dalam dunia belanja online. Namun, seriring dengan perkembangan jaman, terdapat perkembangan juga dalam dunia kriminalitas. Cybercrime merupakan bentuk kriminalitas dalam dunia online yang dapat mengancam para pengguna jasa online, salah satunya konsumen took online. Karya tulis ini bertujuan untuk mengetahui pengaruh cybercrime terhadap minat belanja online mahasiswa ITB. Karya tulis ini disusun setelah penulis melakukan pengambilan data dalam bentuk kuisioner yang disebarkan ke sampel objek, yaitu mahasiswa ITB dari berbagai angkatan dan fakultas.
+Karya tulis ini tidak akan dapat diselesaikan tanpa bantuan dari berbagai pihak yang berperan secara langsung maupun tidak langsung. Untuk itu, penulis menyampaikan terimakasih kepada orangtua dan keluarga yang memberi dukungan moral dan material sepanjang keberlangsungan penyusunan karya tulis ini. Serta kepada para narasumber yang bersedia menyisihkan waktunya menjadi objek dalam karya tulis ini.
+Kepada dosen pembimbing mata kuliah Tata Tulis Karya Ilmiah kelas 05 fakultas STEI Institut Teknologi Bandung, Ibu Winni Aryuni, M.pd, penulis berterimakasih atas segala bimbingan, masukan, serta bantuan yang sudah diberikan sepanjang penyusunan karya tulis ini.
+Karya tulis ini tentunya masih memiliki banyak kesalahan. Akan tetapi, penulis berharap karya tulis ini dapat memberi manfaat bagi semua pembaca. Selain itu, melalui karya tulis ini dapat ditampung pendapat para mahasiswa ITB mengenai pengaruh cybercrime terhadap minat belanja online mahasiswa. Sehingga segala kekurangan dalam dunia online shopping dapat diperbaiki di kemudian hari.
+Bandung, 15 April 2019
+ 
+Penulis
+
+SANWACANA
+Dalam penulisan laporan ini, penulis merasa mendapat banyak bantuan dari berbagai pihak. Baik dukungan berupa materi, data, maupun semangat, semuaitu membantu penulis dapat menyelesaikan laporan ini tepat waktu. Terima kasih penulis sampaikan kepada Yth. Rektor ITB, Wakil Rektor Bidang Akademik ITB, Dekan STEI, Dosen Tata Tulis Karya Ilmiah kelas 05 STEI yang sudah membimbing penulis dalam menyelesaikan laporan ini, teman-teman kelas TTKI-05 atas semangat kebersamaannya dalam menuntaskan laporan ini, mahasiswa ITB untuk kesediaannya mengisi kuesioner kami, dan kedua orang tua penulis dalam segala dukungannya. Akhir kata, penulis membuat pantun untuk melengkapi laporan ini.
+Liburan semester telah tiba,
+Penjursan di depan mata,
+Terimakasih semuanya,
+TTKI kami berjalan lancar.
+
+
+
+
+AAAA
+
+Booming 13
+Bukalapak 20, 24
+
+Coding 11
+
+Direktori 11, 12
+Domain 9, 10, 11
+
+Hamzah 13
+Hartaji 16
+Hit and run 15
+
+Instagram 21, 23
+
+Knopfemacher 15
+Konvensional 8, 18, 20, 24, 26
+
+Offline 8
+
+Sari 8
+Smartphone 13
+Subdomain 11
+Survey 8, 9
+Suwono 15
+
+Tokopedia 20, 24
+
+Unicorn 23, 24
+URL 10, 11
+
+Web 10
+Website 21
+
+Zuckerberg 13
+
+
+OLEH TEKNIK ELEKTRO DAN INFORMATIKA
+INSTITUT TEKNOLOGI BANDUNG
+BANDUNG
+2019
+
+HASIL KUESIONER TTKI
+
+Hasil kuesioner TTKI
+Kenapa? Kadang barang yang kita cari belom tentu ada di offline shop dan biasanya harga di olshop lebih murah Karena jauh lebih banyak penjual yang jujur ketimbang kejahatan yang ada Banyak seller jujur kok. Selain itu emang belanja onlen udah jadi kebutuhan Cybercrime bisa dihindari, jangan ditakuti Terdapat beberapa barang yang lebig mudah didapat dan dijangkau lewat belanja online
+Pengen aja Ga semua olshop penipu. Lebih jeli lg aj Selama kita berhati-hati dan belanja di situs yang terpercaya, hal tersebut dapat dicegah Karena tidak semua online shop melakukan cybercrime, kalau kita hati2 maka bisa mendapatkan benefit dari online shop Lebih praktis Karena saya yakin bahwa masih banyak orang baik yamg hidup di dunia ini Belum pernah mengalami, kalaupun ada benefit belanja online lebih banyak Karena kita pinter2an aja biar ga ditipu:) Lebih banyak promo Masih banyak yang jujur Lebih efektif Mempermudah mencari suatu barang yang dibutuhkan secara cepat Dibatasi oleh waktu, belanja online mungkin jadi salah satu alternatif untuk mengefektifkan waktu it's convenient in so many ways Karena lebih praktis dan kadang suka ada promonya Karena praktis dan belum kena juga(naudzubillah jangan sampai kena) Karena engga semua online shop kaya gitu, mungkin itu kaya udah takdir aja, dijadiin pelajaran aja Karena because butuh Masih banyak yang trusted Tetep butuh sih cm harus hati2 aja Belanja online lebih mudah dan praktis Ribet lebih trusted sih kalo kita pintwr2 cari pembelinya Barang lebih bervariasi karena belanja online lebih praktis daripada harus ke toko Gampang soale Butuh Platform belanja online sudah lebih aman Karena masih bisa ditangani dengan memilih jumlah review toko online Memberi kemudahan dalam membeli barang tertentu Harus lebih hati-hati aja Butuh wkwk Marketplace sudah mempunyai caranya sendiri untuk melindungi pelanggan, tidak mungkin barang tidak dikirim kan ada resinya Karena barang yang dicari gak ada di toko sekitar Karena bisa di balikin (makanya jangan pakai ig dkk, pakai bl/tokped) Kapok Karen harus jadi pembeli yang bijak banyak yg trusted juga
+Page 11
+Hasil kuesioner TTKI
+murah Praktis tingkat cybercrime masih rendah dan tidak memengaruhi saya Lebih murah belanja online Gpp ga semua olshop melakukan cybercrime Kebutuhan yang menuntut sih, kalo mepet mesti olshop ya mau gimana lagi kan.. Mudah murah Karena masih banyak barang yang perlu dibeli online Soalnya enak bisa pilih barang sesuai keinginan Enak aja lebih flexibel Karena banyak fitur yang menguntungkan Kalau memang barang yang dibeli cuma bisa didapatkan di olshop ya gimana lagi Karena ga semua online shop jahat
+Page 12
+
+Apa yang Anda ketahui mengenai cybercrime? Tindakan kriminal di dunia maya Kejahatan dalam jaringan, terutama dengan memanfaatkan komputer Tindak kriminal di dumay Kejahatan di internet Kegiatan penipuan,pemalsuan,dan segala kejahatan yang terjadi pada dunia daring salah satunya penyalahgunaan informasi pribadi Criminal cyber Kejahatan di dunia maya Kejahatan dalam internet Kejahatan dalam dunia maya Modus kejahatan baru Kejahatan yang berkaitan dengan masalah cyber Kejahatan digital Menipu lewat online gitu kejahatan melalui internet seperti pembajakan akun bank Kejahatan lewat platform online kehahatan yg terjadi dalam dunia maya Aktivitas kejahatan yang dilakukan di dunia maya dengan menggunakan teknologi komputer kejahatan dunia maya kejahatan dalam platform digital Kejahatan di dunia Maya yang termasuk hacker didalamnya Definisinya : tindak kriminal dengan memanfaatkan teknologi data dan jaringan Kriminalitas yang terjadu di dunia maya Kejahatan cyber Kejahatan dalam internet Takut Tindakan kriminal yg dilakukan di jejaring Kejahatan melalui internet kejahatan online Kejahatan dalam jaringan internet kejahatan dalam cyber Kejahatan di dunia maya, kayak phising, cyberbully, scamming, dkkdkk Kejahatan di internet Tindak kejahatan di dunia maya Kejahatan di dunia Maya :) Kejahatan di dunia siber Kejahatan di dunia maya Ya kejahatan online wkwkkw Kejahatan di dunia maya kejahatan lewat internet Penipuan, scam Kejahatan yang dilakukan melalui cyber atau jaringan internet dapat berupa penipuan, hacking, dll Terorisme dalam jaringan seperti deskripsi diatas
+Page 5
+Hasil kuesioner TTKI
+phising Malezz Kejahatan yang dilakukan dengan memanfaatkan media internet di dunia maya Kejahatan yg dapat terjadi lewat dunia maya/internet \kejahatan via digital Misalnya barang yg di platform ga sesuai di dunia nyata (?) Kejahatan online kali ya Crime yang terjadi di dunia maya Kejahatan di internet \Kejahatan yang dilakukan di jaringan Kejahatan lewat dunia maya Kejahatan di internet Kejahatan lewat internet (dunia maya) Kejahatan di dunia maya Kejahatan di dunia maya Tindak kejahatan dengan komputer sebagai sasaran dan sarana melakukan kejahatan jahat Kejahatan yang menggunakan jaringan komputer Jahat di internet Kejahatan yang terjadi lewat dunia maya Kejahatan di dunia maya \Kejahatan
+LEMBAR KENDALI
+
+KELOMPOK	:
+ANGGOTA	1 Naomi Yolanda B.	(16518065)
+			2 Ferdina Wiranti A.	(16518310)
+			3 Yasmin Sekar A.	(16518325)
+
+TOPIK		: E-Commerce
+
+TEMA		: Balanja online
+
+JUDUL		: Pengaruh tingginya angka cyber crime terhadap minat belanja online mahasiswa ITB.
+
+RUMUSAN MASALAH
+1.	Bagaimana tingkat minat mahasiswa ITB dalam melakukan belanja online?
+2.	Bagaimana pandangan mahasiswa ITB terhadap cyber crime dalam dunia olshop?
+3.	Bagaimana pengaruh tingkat cyber crime terhadap minat belanja online mahasiswa ITB?
+
+TUJUAN PENULISAN
+1.	Mengetahui tingkat minat mahasiswa ITB dalam melakukan belanja online.
+2.	Mengetahui pandangan mahasiswa ITB terhadap cyber crime dalam dunia olshop.
+3.	Mengetahui pengaruh tingkat cyber crime terhadap minat belanja online mahasiswa ITB.
+
+ASPEK YANG AKAN DIKAJI
+1.	Online shop
+2.	Cyber crime
+3.	Belanja online
+4.	Minat mahasiswa ITB
+
+DAFTAR ISI
+Halaman
+ABSTRAK									         ii
+PRAKATA									        iii
+SANWACANA								        iv
+DAFTAR ISI									         v
+DAFTAR ISTILAH								       vii
+DAFTAR DIAGRAM							      viii
+DAFTAR LAMPIRAN							        ix
+
+BAB I	PENDAHULUAN							         1
+1.1	Latar Belakang dan Rumusan Masalah				         1
+1.1.1	Latar Belakang							         1
+1.1.2	Rumusan Masalah				 		         2
+1.2	Tujuan Penulisan dan Manfaat					         3
+1.3	Ruang Lingkup Kajian						         3
+1.4	Anggapan Dasar							         4
+1.5	Hipotesis								         4
+1.6	Metode dan Teknik Pengumpulan Data				         4
+1.6.1	Metode								         4
+1.6.2	Teknik Pengumpulan Data					         5
+1.7 Sistematika Penulisan						         5
+
+BAB II TEORI DASAR							         7
+2.1 Online Shop dan Online Shopping					         7
+	2.1.1 Pengertian								         7
+	2.1.2 Jenis Online Shop							         9
+	2.2 Cybercrime								       13
+	2.2.1 Pengertian								       13
+	2.2.2 Bentuk Cybercrime dalam Belanja Online			       15
+	2.3 Mahasiswa ITB						 	       15
+	2.4 Minat Belanja Online Mahasiswa					       16
+	2.5 Pemahaman Mahasiswa Mengenai Cybercrime			       17
+
+BAB III PEMBAHASAN PENGARUH CYBERCRIME 			       18
+TERHADAP MINAT BELANJA ONLINE MAHASISWA ITB
+3.1 Minat Mahasiswa dalam Melakukan Belanja Online		       18
+3.2 Pemahaman Mahasiswa Mengenai Cybercrime dalam 		       21
+Berbelanja Online
+3.3 Pengaruh Cybercrime terhadap Minat Belanja Online		       22
+Mahasiswa ITB
+
+BAB IV KESIMPULAN DAN SARAN					      26
+4.1 Kesimpulan								      26
+4.2 Saran								      26
+
+DAFTAR PUSTAKA								      28
+INDEKS									      29
+LAMPIRAN									      30
+RIWAYAT HIDUP							 	      31
+
+DAFTAR ISTILAH
+halaman
+ISTILAH  1 UNICORN							       23
+
+
+DAFTAR DIAGRAM
+halaman
+DIAGRAM	1  PENGALAMAN MELAKUKAN 				       19
+TRANSAKSI ONLINE
+2	FREKUENSI BERBELANJA ONLINE 			       19	
+MAHASISWA ITB DALAM SATU BULAN
+3	PERBANDINGAN PENGGUNAAN TOKO 		       20
+ONLINE
+4	PENGETAHUAN RESPONDEN MENGENAI 		       21
+CYBERCRIME
+5	PENGALAMAN RESPONDEN TENTANG 		       22
+CYBERBRIME DALAM BELANJA ONLINE
+6	MINAT BELANJA ONLINE RESPONDEN 		       23
+DENGAN PENGARUH CYBERCRIME
+FTAR LAMPIRAN
+LAMPIRAN	 A LEMBAR KENDALI
+		 B KERANGKA
+		 C DRAF BAB I
+		 D DRAF BAB II
+		 E DRAF BAB III
+		 F DRAF BAB IV
+		 G SAMPUL
+		 H ABSTRAK
+		 I PRAKATA
+		 J RIWAYAT HIDUP
+		 K KUISIONER
+
+oleh
+Naomi Yolanda Bernadetta		16518065
+Ferdina Wiranti Afifah		16518310
+Yasmin Sekar Arum			16518325
